@@ -1,0 +1,1528 @@
+id,product_id,spec_name,spec_value
+1,1,Brand,‎Lenovo
+2,1,Manufacturer,‎Lenovo
+3,1,Series,‎IdeaPad
+4,1,Colour,"‎i5-12th | Office 2024"
+5,1,"Form Factor","‎Thin & Light"
+6,1,"Standing screen display size","‎14 Inches"
+7,1,"Screen Resolution","‎1920 x 1080 pixels"
+8,1,Resolution,"‎1920 x 1080 Pixels"
+9,1,"Package Dimensions","‎48.4 x 29.4 x 7.6 cm; 1.37 kg"
+10,1,Batteries,"‎1 12V batteries required. (included)"
+11,1,"Item model number",‎14IAH8
+12,1,"Processor Brand",‎Intel
+13,1,"Processor Type","‎Intel Core i5"
+14,1,"Processor Speed","‎2 GHz"
+15,1,"Processor Count",‎8
+16,1,"Memory Technology","‎Lpddr 5"
+17,1,"Computer Memory Type","‎DDR5 RAM"
+18,1,"Maximum Memory Supported","‎16 GB"
+19,1,"Hard Drive Size","‎512 GB"
+20,1,"Hard Disk Description",‎SSD
+21,1,"Hard Drive Interface","‎PCIE x 4"
+22,1,"Audio Details","‎Headphones, Speakers"
+23,1,"Speaker Description","‎User-facing stereo speakers, 1.5W x2, optimized with Dolby Audio"
+24,1,"Graphics Coprocessor","‎Intel UHD Graphics"
+25,1,"Graphics Chipset Brand",‎Intel
+26,1,"Graphics Card Description",‎Integrated
+27,1,"Graphics RAM Type",‎Shared
+28,1,"Graphics Card Interface",‎Integrated
+29,1,"Connectivity Type","‎Bluetooth, Wi-Fi"
+30,1,"Wireless Type",‎802.11a/b/g/n/ac
+31,1,"Number of USB 3.0 Ports",‎3
+32,1,"Optical Drive Type","‎No Optical Drive"
+33,1,"Operating System","‎Windows 11 Home"
+34,1,"Average Battery Life (in hours)","‎7 Hours"
+35,1,"Are Batteries Included",‎Yes
+36,1,"Lithium Battery Energy Content","‎47 Watt Hours"
+37,1,"Number of Lithium Ion Cells",‎4
+38,1,"Included Components","‎User Guide, Laptop, Power Adapter"
+39,1,"Country of Origin",‎China
+40,1,"Item Weight","‎1 kg 370 g"
+41,1,ASIN,B0DP7BZ8FD
+42,1,"Customer Reviews","3.9             3.9 out of 5 stars          
+
+                          513 ratings     
+                    
+                    var dpAcrHasRegisteredArcLinkClickAction;
+                    P.when('A', 'ready').execute(function(A) {
+                        if (dpAcrHasRegisteredArcLinkClickAction !== true) {
+                            dpAcrHasRegisteredArcLinkClickAction = true;
+                            A.declarative(
+                                'acrLink-click-metrics', 'click',
+                                { "allowLinkDefault": true },
+                                function (event) {
+                                    if (window.ue) {
+                                        ue.count("acrLinkClickCount", (ue.count("acrLinkClickCount") || 0) + 1);
+                                    }
+                                }
+                            );
+                        }
+                    });
+                
+                 
+            P.when('A', 'cf').execute(function(A) {
+                A.declarative('acrStarsLink-click-metrics', 'click', { "allowLinkDefault" : true },  function(event){
+                    if(window.ue) {
+                        ue.count("acrStarsLinkWithPopoverClickCount", (ue.count("acrStarsLinkWithPopoverClickCount") || 0) + 1);
+                    }
+                });
+            });
+        
+
+           
+       3.9 out of 5 stars"
+43,1,"Best Sellers Rank","#959 in Computers & Accessories (See Top 100 in Computers & Accessories)   #16 in Traditional Laptops"
+44,1,"Date First Available","28 November 2024"
+45,1,Packer,"One of the below: Hefei Bitland Information Technology Co.,Ltd - No.4088 Jiuxiu Road National Hefei economic & technology development area Hefei Anhui China LCFC（Hefei) Electronics Technology Co., Ltd. - NO.1-3188,YUNGU ROAD, HEFEI EXPORT PROCESSING ZONE. ANHUI PROVINCE,CHINA Tech-Com(Shanghai) Computer Co Ltd - No.6 Ln.58,San-Zhuang Rd., Songjiang EPZ ShangHai, China Wistron InfoComm (Kunshan) Co.Ltd - 168# First Avenue, Kunshan Export Processing Zone, Kunshan, Jiangsu, China Compal information technology (kunshan) CO., LTD. - Address: No. 58, the 1st street, Kunshan Export Processing Zone, Jiangsu, P.R.O.C. CHINA Kunshan Hichain storage Co. Ltd - No. 88 Xinxiang Road Avenue Kunshan CBZ Wujiang Hichain warehousing LTD - No.2088 Pangjin road, Wujiang economic development area, Jiangsu, China"
+46,1,Importer,"Lenovo (India) Private Limited, RBD Icon, Level 2, Doddenakundi Village, Marathahalli Outer Ring Road, K. R. Puram Hobli, Bangalore 560037, Karnataka, India"
+47,1,"Net Quantity","1 Count"
+48,1,"Generic Name",Laptop
+49,1,Features,"['Processor: Intel Core i5-12450H | Speed: 2.0 GHz (Base) - 4.4 GHz (Max) | 8 Cores | 12 Threads | 12MB Cache', 'Display: 14" FHD (1920x1080) | 250Nits Brightness | Anti Glare |TUV Low Blue Light Certified', 'Memory and Storage: 16GB RAM LPDDR5-4800, soldered memory, not upgradable | 512GB SSD M.2 2242 PCIe 4.0x4 NVMe', 'OS and Software: Windows 11 Home Single Language | Office Home 2024 | Xbox GamePass Ultimate 3-month subscription', 'Design: 4 side narrow bezel | 1.79 cm Ultra Thin & 1.37 kg Light || Smart Learning Features : Lenovo Aware | Whisper Voice | Eye Care']"
+50,2,Brand,‎ASUS
+51,2,Manufacturer,‎ASUS
+52,2,Series,"‎TUF Gaming F15"
+53,2,Colour,"‎Black, R7 | RTX 3050"
+54,2,"Form Factor",‎Ultra-Portable
+55,2,"Item Height","‎43.2 Centimeters"
+56,2,"Item Width","‎31 Centimeters"
+57,2,"Standing screen display size","‎15.6 Inches"
+58,2,"Screen Resolution","‎1920 x 1080 pixel"
+59,2,Resolution,"‎1920 x 1080 Pixels"
+60,2,"Product Dimensions","‎10.4 x 31 x 43.2 cm; 2.3 kg"
+61,2,Batteries,"‎1 Lithium Ion batteries required. (included)"
+62,2,"Item model number",‎FA506NCR-HN054W
+63,2,"Processor Brand",‎AMD
+64,2,"Processor Type","‎AMD Ryzen 7"
+65,2,"Processor Speed","‎3.1 GHz"
+66,2,"Processor Count",‎8
+67,2,"RAM Size",‎16
+68,2,"Memory Technology",‎DDR5
+69,2,"Computer Memory Type","‎DDR5 RAM"
+70,2,"Maximum Memory Supported","‎32 GB"
+71,2,"Hard Drive Size","‎512 GB"
+72,2,"Hard Disk Description",‎SSD
+73,2,"Audio Details",‎Headphones
+74,2,"Speaker Description","‎DTS Software"
+75,2,"Graphics Coprocessor","‎NVIDIA GeForce RTX 3050"
+76,2,"Graphics Chipset Brand",‎NVIDIA
+77,2,"Graphics Card Description",‎Dedicated
+78,2,"Graphics RAM Type",‎GDDR6
+79,2,"Graphics Card Ram Size","‎4 GB"
+80,2,"Graphics Card Interface","‎PCI Express"
+81,2,"Connectivity Type",‎Wi-Fi
+82,2,"Wireless Type","‎Bluetooth, 802.11bgn"
+83,2,Voltage,"‎240 Volts"
+84,2,"Optical Drive Type","‎No Optical Storage"
+85,2,"Operating System","‎Windows 11 Home"
+86,2,"Average Battery Life (in hours)","‎3 Hours"
+87,2,"Are Batteries Included",‎Yes
+88,2,"Lithium Battery Energy Content","‎48 Watt Hours"
+89,2,"Number of Lithium Ion Cells",‎3
+90,2,"Included Components","‎Laptop, Adapter & User Manuals"
+91,2,"Country of Origin",‎China
+92,2,"Item Weight","‎2 kg 300 g"
+93,2,ASIN,B0D5DFR78J
+94,2,"Customer Reviews","3.9             3.9 out of 5 stars          
+
+                          462 ratings     
+                    
+                    var dpAcrHasRegisteredArcLinkClickAction;
+                    P.when('A', 'ready').execute(function(A) {
+                        if (dpAcrHasRegisteredArcLinkClickAction !== true) {
+                            dpAcrHasRegisteredArcLinkClickAction = true;
+                            A.declarative(
+                                'acrLink-click-metrics', 'click',
+                                { "allowLinkDefault": true },
+                                function (event) {
+                                    if (window.ue) {
+                                        ue.count("acrLinkClickCount", (ue.count("acrLinkClickCount") || 0) + 1);
+                                    }
+                                }
+                            );
+                        }
+                    });
+                
+                 
+            P.when('A', 'cf').execute(function(A) {
+                A.declarative('acrStarsLink-click-metrics', 'click', { "allowLinkDefault" : true },  function(event){
+                    if(window.ue) {
+                        ue.count("acrStarsLinkWithPopoverClickCount", (ue.count("acrStarsLinkWithPopoverClickCount") || 0) + 1);
+                    }
+                });
+            });
+        
+
+           
+       3.9 out of 5 stars"
+95,2,"Best Sellers Rank","#2,463 in Computers & Accessories (See Top 100 in Computers & Accessories)   #42 in Traditional Laptops"
+96,2,"Date First Available","28 May 2024"
+97,2,Packer,"TECH FRONT ( CHONGQING) Computer Co. Ltd, NO 18 , Zongbao Road, Shapingba Dist,Chongquing, China"
+98,2,Importer,"ASUS INDIA PRIVATE LIMITED, 402, Supreme chambers, 17/18, Shah Industrial Estate, Veera Desai Road, Andheri (West), Mumbai 400053, India"
+99,2,"Item Dimensions LxWxH","10.4 x 31 x 43.2 Centimeters"
+100,2,"Net Quantity","1 Count"
+101,2,"Generic Name",Laptop
+102,2,Features,"['Processor : AMD Ryzen 7 7435HS Mobile Processor 3.1GHz (20MB Cache, up to 4.5 GHz, 8 cores, 16 Threads) delivers fast and responsive performance for demanding tasks such as gaming, content creation, and multitasking.', 'Storage : 512GB PCIe 4.0 NVMe M.2 SSD | Memory : 16GB DDR5-5600 MHz Support Up to 32 GB Expandable 2x DDR5 SO-DIMM slots [Disclaimer : Rated speed of RAM module. Actual memory speeds may vary by CPU configuration]', 'Graphics : 4GB GDDR6, NVIDIA GeForce RTX 3050 Laptop GPU, Up to 1675MHz at 60W (75W with Dynamic Boost)', 'Display : 15.6-inch FHD (1920 x 1080) 16:9, 144Hz, 250 nits Brightness, Anti-Glare Display, Display output : 1x HDMI 2.1 TMDS, Keyboard : Backlit Chiclet Keyboard 1-Zone RGB', 'Battery : 48WHrs, 3S1P, 3-cell Li-ion, Fast Charging : Recharge from 0-50% in 30 minutes']"
+103,3,Brand,‎Lenovo
+104,3,Manufacturer,‎Lenovo
+105,3,Series,"‎Lenovo V15 G4"
+106,3,Colour,"‎Arctic Grey"
+107,3,"Standing screen display size","‎15.6 Inches"
+108,3,"Package Dimensions","‎48.6 x 30.6 x 6.8 cm; 1.63 kg"
+109,3,Batteries,"‎1 AAA batteries required. (included)"
+110,3,"Processor Brand",‎AMD
+111,3,"Processor Type","‎Ryzen 3"
+112,3,"Processor Speed","‎2.4 GHz"
+113,3,"Processor Count",‎1
+114,3,"Memory Technology","‎Lpddr 5"
+115,3,"Maximum Memory Supported","‎8 GB"
+116,3,"Hard Disk Description",‎SSD
+117,3,"Graphics Chipset Brand",‎AMD
+118,3,"Graphics Card Description",‎Integrated
+119,3,"Graphics RAM Type",‎Shared
+120,3,"Graphics Card Interface",‎Integrated
+121,3,"Optical Drive Type","‎No Optical Drive"
+122,3,"Operating System","‎Windows 11 Home"
+123,3,"Are Batteries Included",‎Yes
+124,3,"Lithium Battery Energy Content","‎38 Watt Hours"
+125,3,"Number of Lithium Ion Cells",‎2
+126,3,"Included Components","‎Laptop, User manual, Adapter"
+127,3,"Country of Origin",‎China
+128,3,"Item Weight","‎1 kg 630 g"
+129,3,ASIN,B0DVGQPW13
+130,3,"Customer Reviews","3.8             3.8 out of 5 stars          
+
+                          33 ratings     
+                    
+                    var dpAcrHasRegisteredArcLinkClickAction;
+                    P.when('A', 'ready').execute(function(A) {
+                        if (dpAcrHasRegisteredArcLinkClickAction !== true) {
+                            dpAcrHasRegisteredArcLinkClickAction = true;
+                            A.declarative(
+                                'acrLink-click-metrics', 'click',
+                                { "allowLinkDefault": true },
+                                function (event) {
+                                    if (window.ue) {
+                                        ue.count("acrLinkClickCount", (ue.count("acrLinkClickCount") || 0) + 1);
+                                    }
+                                }
+                            );
+                        }
+                    });
+                
+                 
+            P.when('A', 'cf').execute(function(A) {
+                A.declarative('acrStarsLink-click-metrics', 'click', { "allowLinkDefault" : true },  function(event){
+                    if(window.ue) {
+                        ue.count("acrStarsLinkWithPopoverClickCount", (ue.count("acrStarsLinkWithPopoverClickCount") || 0) + 1);
+                    }
+                });
+            });
+        
+
+           
+       3.8 out of 5 stars"
+131,3,"Best Sellers Rank","#512 in Computers & Accessories (See Top 100 in Computers & Accessories)   #5 in Traditional Laptops"
+132,3,"Date First Available","30 January 2025"
+133,3,Packer,"LCFC (HeFei) Electronics Technology Co., Ltd. No.3188-1, Yungu Road, Economics and Technology Development District, Hefei, Anhui-230601, China"
+134,3,Importer,"Lenovo India Pvt Ltd, RBD Icon, 2nd Floor, Doddenekundi, Marathaalli Outer Ring Road, Bangalore, India 560037"
+135,3,"Net Quantity","1 Case"
+136,3,"Generic Name",Laptop
+137,3,Features,"['Processor: AMD Ryzen 3 7320U processor, base speed 2.4 Ghz, max speed 4.1 Ghz, 4 Cores, 4MB L3 cache | Memory: 8GB LPDDR5 RAM 5500 MHz | Storage: 512GB SSD M.2', 'Operating System: Preloaded Windows 11 Home SL with Lifetime Validity', 'Display: 15.6" (39.62 cm) FHD (1920x1080) 250 Nits, Antiglare, Contrast Ratio: 500:1 | Graphics: Integrated AMD Radeon graphics | High-Definition Audio, Realtek ALC3287 codec, Stereo speakers, 1.5W x2, Dolby Audio', 'Ports: 2x USB 3.2 Gen 1 | 1x USB-C 3.2 Gen 1 (support data transfer, Power Delivery (20V only) and DisplayPort 1.2) | 1x HDMI 1.4b | 1x Headphone / microphone combo jack (3.5mm) | 1x Ethernet (RJ-45) | 1x Power connector', 'Camera: HD 720p with Privacy Shutter | Microphone: Dual array mic | Keyboard: 6-row, spill-resistant, multimedia Fn keys, SMB Service Hot key, numeric keypad | Touchpad: Buttonless Mylar surface multi-touch touchpad, supports Precision TouchPad']"
+191,5,Brand,‎HP
+192,5,Manufacturer,‎HP
+193,5,Series,"‎HP Laptop"
+194,5,Colour,"‎Light Silver"
+195,5,"Form Factor",‎Laptop
+196,5,"Standing screen display size","‎39.6 Centimetres"
+197,5,"Screen Resolution","‎1366 x 768 pixel"
+198,5,Resolution,"‎1920 x 1080 Pixels"
+199,5,"Package Dimensions","‎52.1 x 31 x 6.9 cm; 1.59 kg"
+200,5,Batteries,"‎1 Lithium Ion batteries required. (included)"
+201,5,"Item model number",‎9D3M8PA
+202,5,"Processor Brand",‎AMD
+203,5,"Processor Type","‎Ryzen 3"
+204,5,"Processor Speed","‎4.1 GHz"
+205,5,"Processor Count",‎1
+206,5,"Memory Technology",‎DDR5
+207,5,"Computer Memory Type","‎DDR5 RAM"
+208,5,"Maximum Memory Supported","‎8 GB"
+209,5,"Memory Clock Speed","‎5500 MHz"
+210,5,"Hard Drive Size","‎512 GB"
+211,5,"Hard Disk Description","‎Solid State Hard Drive"
+212,5,"Audio Details",‎Speakers
+213,5,"Graphics Chipset Brand",‎AMD
+214,5,"Graphics Card Description",‎Integrated
+215,5,"Graphics RAM Type",‎VRAM
+216,5,"Graphics Card Ram Size","‎8 GB"
+217,5,"Graphics Card Interface",‎Integrated
+218,5,"Connectivity Type",‎Bluetooth
+219,5,"Number of USB 2.0 Ports",‎2
+220,5,"Number of USB 3.0 Ports",‎1
+221,5,Voltage,"‎11.1 Volts"
+222,5,"Operating System",‎Windows
+223,5,"Are Batteries Included",‎Yes
+224,5,"Lithium Battery Energy Content","‎41 Watt Hours"
+225,5,"Number of Lithium Ion Cells",‎3
+226,5,"Included Components","‎Laptop, charger"
+227,5,"Country of Origin",‎India
+228,5,"Item Weight","‎1 kg 590 g"
+229,5,ASIN,B0D3HG5CMG
+230,5,"Customer Reviews","4.1             4.1 out of 5 stars          
+
+                          1,529 ratings     
+                    
+                    var dpAcrHasRegisteredArcLinkClickAction;
+                    P.when('A', 'ready').execute(function(A) {
+                        if (dpAcrHasRegisteredArcLinkClickAction !== true) {
+                            dpAcrHasRegisteredArcLinkClickAction = true;
+                            A.declarative(
+                                'acrLink-click-metrics', 'click',
+                                { "allowLinkDefault": true },
+                                function (event) {
+                                    if (window.ue) {
+                                        ue.count("acrLinkClickCount", (ue.count("acrLinkClickCount") || 0) + 1);
+                                    }
+                                }
+                            );
+                        }
+                    });
+                
+                 
+            P.when('A', 'cf').execute(function(A) {
+                A.declarative('acrStarsLink-click-metrics', 'click', { "allowLinkDefault" : true },  function(event){
+                    if(window.ue) {
+                        ue.count("acrStarsLinkWithPopoverClickCount", (ue.count("acrStarsLinkWithPopoverClickCount") || 0) + 1);
+                    }
+                });
+            });
+        
+
+           
+       4.1 out of 5 stars"
+231,5,"Best Sellers Rank","#262 in Computers & Accessories (See Top 100 in Computers & Accessories)   #1 in Traditional Laptops"
+232,5,"Date First Available","7 May 2024"
+233,5,Packer,"HP India Sales Pvt. Ltd."
+234,5,Importer,"HP India Sales Pvt. Ltd."
+235,5,"Net Quantity","1 Piece"
+236,5,"Generic Name",Laptop
+237,5,Features,"['Processor : AMD Ryzen 3 7320U (up to 4.1 GHz max boost clock, 4 MB L3 cache, 4cores, 8 threads)| Storage & Memory : 8 GB LPDDR5-5500 MHz RAM , 512 GB PCIe NVMe M.2 SSD', 'Display: 39.6 cm (15.6") diagonal, FHD (1920 x 1080), micro-edge, anti-glare, 250 nits, 45% NTSC', 'Graphics & Networking : AMD Radeon Graphics|Networking: Realtek Wi-Fi 6 (2x2) and Bluetooth 5.3 wireless card (supporting gigabit data rate)', 'Ports: 1 USB Type-C 5Gbps signaling rate (supports data transfer only and does not support charging or external monitors); 2 USB Type-A 5Gbps signaling rate; 1 AC smart pin; 1 HDMI 1.4b; 1 headphone/microphone combo', 'Features: Camera: HP True Vision 1080p FHD camera with temporal noise reduction and integrated dual array digital microphones| Audio: Dual speakers|Keyboard: Full-size, soft grey keyboard with numeric keypad']"
+238,6,Brand,‎HP
+239,6,Manufacturer,‎HP
+240,6,Series,"‎HP 15s"
+241,6,Colour,"‎Light Blue ,8GB RAM"
+242,6,"Form Factor",‎laptop
+243,6,"Item Height","‎52.3 Centimeters"
+244,6,"Item Width","‎7.2 Centimeters"
+245,6,"Standing screen display size","‎39.6 Centimetres"
+246,6,"Screen Resolution","‎1920 x 1080 pixel"
+247,6,Resolution,"‎1920 x 1080 Pixels"
+248,6,"Product Dimensions","‎52.3 x 7.2 x 52.3 cm; 1.7 kg"
+249,6,Batteries,"‎1 Lithium Polymer batteries required. (included)"
+250,6,"Item model number",‎8G148PA
+251,6,"Processor Brand",‎Intel
+252,6,"Processor Type","‎Core i5"
+253,6,"Processor Speed","‎4.4 GHz"
+254,6,"Processor Count",‎1
+255,6,"RAM Size","‎8 GB"
+256,6,"Memory Technology",‎DDR4
+257,6,"Computer Memory Type","‎DDR4 SDRAM"
+258,6,"Maximum Memory Supported","‎8 GB"
+259,6,"Memory Clock Speed","‎3200 GHz"
+260,6,"Hard Drive Size","‎512 GB"
+261,6,"Hard Disk Description",‎SSD
+262,6,"Hard Drive Interface",‎USB-C
+263,6,"Audio Details",‎Headphones
+264,6,"Speaker Description","‎Dual stereo speakers"
+265,6,"Graphics Coprocessor",‎Intel
+266,6,"Graphics Chipset Brand",‎Intel
+267,6,"Graphics Card Description",‎Integrated
+268,6,"Graphics RAM Type","‎DDR4 SDRAM"
+269,6,"Graphics Card Ram Size","‎8 GB"
+270,6,"Graphics Card Interface",‎Integrated
+271,6,"Connectivity Type","‎Bluetooth, Wi-Fi"
+272,6,"Wireless Type",‎Bluetooth
+273,6,"Number of USB 3.0 Ports",‎2
+274,6,"Number of HDMI Ports",‎1
+275,6,"Operating System","‎Windows 11 Home"
+276,6,"Average Battery Standby Life (in hours)","‎8 Hours"
+277,6,"Average Battery Life (in hours)","‎7 Hours"
+278,6,"Are Batteries Included",‎Yes
+279,6,"Lithium Battery Energy Content","‎41 Watt Hours"
+280,6,"Number of Lithium Ion Cells",‎3
+281,6,"Included Components","‎Laptop, charger"
+282,6,"Country of Origin",‎China
+283,6,"Item Weight","‎1 kg 700 g"
+284,6,ASIN,B0CJM5Z6FY
+285,6,"Customer Reviews","4.0             4.0 out of 5 stars          
+
+                          615 ratings     
+                    
+                    var dpAcrHasRegisteredArcLinkClickAction;
+                    P.when('A', 'ready').execute(function(A) {
+                        if (dpAcrHasRegisteredArcLinkClickAction !== true) {
+                            dpAcrHasRegisteredArcLinkClickAction = true;
+                            A.declarative(
+                                'acrLink-click-metrics', 'click',
+                                { "allowLinkDefault": true },
+                                function (event) {
+                                    if (window.ue) {
+                                        ue.count("acrLinkClickCount", (ue.count("acrLinkClickCount") || 0) + 1);
+                                    }
+                                }
+                            );
+                        }
+                    });
+                
+                 
+            P.when('A', 'cf').execute(function(A) {
+                A.declarative('acrStarsLink-click-metrics', 'click', { "allowLinkDefault" : true },  function(event){
+                    if(window.ue) {
+                        ue.count("acrStarsLinkWithPopoverClickCount", (ue.count("acrStarsLinkWithPopoverClickCount") || 0) + 1);
+                    }
+                });
+            });
+        
+
+           
+       4.0 out of 5 stars"
+286,6,"Best Sellers Rank","#440 in Computers & Accessories (See Top 100 in Computers & Accessories)   #3 in Traditional Laptops"
+287,6,"Date First Available","22 September 2023"
+288,6,Packer,"SG66 – QUANTA CQ Tech-Front (CHongqing) computer CO.,LTD 18#, comprehensive bonded zone avenue, Shapingba District 401332 Chongqing China"
+289,6,Importer,"HP India Sales pvt limited, 24 kothari Arena, Hosur main road, Adugodi , Bangalore -560030."
+290,6,"Item Dimensions LxWxH","52.3 x 7.2 x 52.3 Centimeters"
+291,6,"Net Quantity","1 Piece"
+292,6,"Generic Name",Laptop
+293,6,Features,"['【10-core 12th Gen Intel Core i5-1235U】 With up to 4.4 GHz speed, a 12 MB L3 cache, and 12 threads, it ensures high performance for multitasking and demanding tasks.', '【Intel Iris Graphics】 Delivers exceptional visuals for a smoother computing experience, enhancing your work or entertainment journey', '【Ample memory and storage】 8GB DDR4-3200 MHz RAM and 512GB PCIe NVMe M.2 SSD ensures swift operation and ample storage for all your files.', '【FHD Micro-edge Display】 The 15.6" FHD (1920 x 1080) micro-edge, anti-glare display offers stunning clarity and color, enhancing your visual experience.', '【Long-lasting battery】 A 3-cell, 41Wh Li-ion battery offering long hours of uninterrupted usage, ensuring productivity at all times. Plus, with HP Fast Charge, you can recharge up to 50% in just 45 mins.', '【Pre-loaded Win 11】 Comes with the latest Windows 11 pre-installed, allowing you to dive into your tasks right away.', '【Seamless Connectivity】 Connect and collaborate effortlessly with Wi-Fi and Bluetooth 5.0. Plus, it offers 1 x USB Type-C, 2 x USB Type-A, 1 x headphone/microphone combo, and 1 x HDMI 1.4b ports for all your peripherals.', '【HD Conferencing】 Features an HP True Vision 720p HD camera with integrated dual array digital microphones and dual speakers for clear video calls.', '【Why HP】 Join the HP family, India’s No#1 PC brand, with a wide network of over 1,000 service centers. Enjoy world-class technology and a trusted warranty from a leading brand.', "【Sustainable choice】 Make an eco-friendly choice with a laptop made from recycled plastic. It's EPEAT Gold registered, and ENERGY STAR certified for reduced environmental impact"]"
+294,7,Brand,‎HP
+295,7,Manufacturer,‎HP
+296,7,Series,"‎HP Laptop"
+297,7,Colour,"‎Natural Silver"
+298,7,"Form Factor",‎Netbook
+299,7,"Item Height","‎52.2 Centimeters"
+300,7,"Item Width","‎31.1 Centimeters"
+301,7,"Standing screen display size","‎39.6 Centimetres"
+302,7,"Screen Resolution","‎1920 x 1080 pixel"
+303,7,Resolution,"‎1920 x 1080 Pixels"
+304,7,"Product Dimensions","‎6.9 x 31.1 x 52.2 cm; 1.7 kg"
+305,7,Batteries,"‎1 Lithium Ion batteries required. (included)"
+306,7,"Item model number",‎91R02PA
+307,7,"Processor Brand",‎Intel
+308,7,"Processor Type","‎Core i3"
+309,7,"Processor Speed","‎4.4 GHz"
+310,7,"Processor Count",‎1
+311,7,"RAM Size","‎8 GB"
+312,7,"Memory Technology",‎DDR4
+313,7,"Computer Memory Type","‎DDR4 SDRAM"
+314,7,"Maximum Memory Supported","‎8 GB"
+315,7,"Hard Drive Size","‎512 GB"
+316,7,"Hard Disk Description",‎SSD
+317,7,"Hard Drive Interface",‎USB-C
+318,7,"Audio Details","‎Headphones, Speakers"
+319,7,"Speaker Description","‎Dual Stereo speakers"
+320,7,"Graphics Coprocessor",‎Intel
+321,7,"Graphics Chipset Brand",‎Intel
+322,7,"Graphics Card Description",‎Integrated
+323,7,"Graphics RAM Type",‎VRAM
+324,7,"Graphics Card Ram Size","‎88 GB"
+325,7,"Graphics Card Interface","‎PCI Express"
+326,7,"Connectivity Type","‎Bluetooth, Wi-Fi"
+327,7,"Wireless Type",‎Bluetooth
+328,7,"Number of USB 3.0 Ports",‎2
+329,7,"Number of HDMI Ports",‎1
+330,7,"Operating System","‎Windows 11 Home"
+331,7,"Average Battery Life (in hours)","‎7 Hour"
+332,7,"Are Batteries Included",‎Yes
+333,7,"Lithium Battery Energy Content","‎41 Watt Hours"
+334,7,"Number of Lithium Ion Cells",‎3
+335,7,"Included Components","‎Laptop, Power Adapter, User Manual"
+336,7,"Country of Origin",‎China
+337,7,"Item Weight","‎1 kg 700 g"
+338,7,ASIN,B0CJBL2QWY
+339,7,"Customer Reviews","4.1             4.1 out of 5 stars          
+
+                          725 ratings     
+                    
+                    var dpAcrHasRegisteredArcLinkClickAction;
+                    P.when('A', 'ready').execute(function(A) {
+                        if (dpAcrHasRegisteredArcLinkClickAction !== true) {
+                            dpAcrHasRegisteredArcLinkClickAction = true;
+                            A.declarative(
+                                'acrLink-click-metrics', 'click',
+                                { "allowLinkDefault": true },
+                                function (event) {
+                                    if (window.ue) {
+                                        ue.count("acrLinkClickCount", (ue.count("acrLinkClickCount") || 0) + 1);
+                                    }
+                                }
+                            );
+                        }
+                    });
+                
+                 
+            P.when('A', 'cf').execute(function(A) {
+                A.declarative('acrStarsLink-click-metrics', 'click', { "allowLinkDefault" : true },  function(event){
+                    if(window.ue) {
+                        ue.count("acrStarsLinkWithPopoverClickCount", (ue.count("acrStarsLinkWithPopoverClickCount") || 0) + 1);
+                    }
+                });
+            });
+        
+
+           
+       4.1 out of 5 stars"
+340,7,"Best Sellers Rank","#740 in Computers & Accessories (See Top 100 in Computers & Accessories)   #11 in Traditional Laptops"
+341,7,"Date First Available","19 September 2023"
+342,7,Packer,"SG66 – QUANTA CQ Tech-Front (CHongqing) computer CO.,LTD 18#, comprehensive bonded zone avenue, Shapingba District 401332 Chongqing China"
+343,7,Importer,"HP India Sales pvt limited, 24 kothari Arena, Hosur main road, Adugodi , Bangalore -560030."
+344,7,"Item Dimensions LxWxH","6.9 x 31.1 x 52.2 Centimeters"
+345,7,"Net Quantity","1 Count"
+346,7,"Generic Name",Laptop
+347,7,Features,"['Processor: Intel Core i3-1215U (up to 4.4 GHz with Intel Turbo Boost Technology, 10 MB L3 cache, 6 cores, 8 threads)| Memory: 8 GB DDR4-3200 MHz RAM (1 x 8 GB)| Storage: 512 GB PCIe NVMe M.2 SSD', 'Display: 39.6 cm (15.6") diagonal, FHD (1920 x 1080), micro-edge, anti-glare, 250 nits, 45% NTSC', 'Operating System: Windows 11 Home Single Language |Microsoft Office Home & Student Edition 2021', 'Ports: 1 USB Type-C 5Gbps signaling rate (supports data transfer only and does not support charging or external monitors); 2 USB Type-A 5Gbps signaling rate; 1 AC smart pin; 1 HDMI 1.4b; 1 headphone/microphone combo | Networking: Realtek RTL8822CE 802.11a/b/g/n/ac (2x2) Wi-Fi and Bluetooth 5 wireless card', 'Other Features: Camera: HP True Vision 720p HD camera with temporal noise reduction and integrated dual array digital microphones| Keyboard : Full-size, natural silver keyboard with numeric keypad |Battery: 3-cell, 41 Wh Li-ion; Up to 7 hours and 30 minutes |Audio: Dual speakers']"
+348,8,Brand,‎HP
+349,8,Manufacturer,‎HP
+350,8,Series,"‎Victus Gaming Laptop"
+351,8,Colour,"‎Performance Blue"
+352,8,"Form Factor",‎Netbook
+353,8,"Item Height","‎52.2 Centimeters"
+354,8,"Item Width","‎30.9 Centimeters"
+355,8,"Standing screen display size","‎39.6 Centimetres"
+356,8,"Screen Resolution","‎1920 x 1080 pixel"
+357,8,Resolution,"‎1920x1080 Pixels"
+358,8,"Product Dimensions","‎7.2 x 30.9 x 52.2 cm; 3.42 kg"
+359,8,Batteries,"‎1 Lithium Ion batteries required. (included)"
+360,8,"Item model number",‎15-fb0106AX/15-fb0112ax
+361,8,"Processor Brand",‎AMD
+362,8,"Processor Type","‎AMD Ryzen 5 5600X"
+363,8,"Processor Speed","‎4.2 GHz"
+364,8,"Processor Count",‎1
+365,8,"RAM Size","‎16 GB"
+366,8,"Memory Technology",‎DDR4
+367,8,"Computer Memory Type","‎DDR4 SDRAM"
+368,8,"Maximum Memory Supported","‎16 GB"
+369,8,"Memory Clock Speed","‎3200 MHz"
+370,8,"Hard Drive Size","‎512 GB"
+371,8,"Hard Disk Description",‎SSD
+372,8,"Hard Drive Interface","‎Solid State"
+373,8,"Audio Details",‎Headphones
+374,8,"Speaker Description","‎Audio by B&O, Dual speakers"
+375,8,"Graphics Coprocessor","‎NVIDIA GeForce RTX 3050"
+376,8,"Graphics Chipset Brand",‎AMD
+377,8,"Graphics Card Description",‎Dedicated
+378,8,"Graphics RAM Type",‎GDDR6
+379,8,"Graphics Card Ram Size","‎4 GB"
+380,8,"Graphics Card Interface","‎PCI Express"
+381,8,"Connectivity Type",‎Wi-Fi
+382,8,"Wireless Type",‎Bluetooth
+383,8,"Number of USB 3.0 Ports",‎2
+384,8,"Number of HDMI Ports",‎1
+385,8,Wattage,"‎52.5 Watt Hours"
+386,8,"Front Webcam Resolution","‎720 Pixels"
+387,8,"Power Source",‎ac
+388,8,"Operating System","‎Windows 11 Home"
+389,8,"Average Battery Life (in hours)","‎10 Hours"
+390,8,"Are Batteries Included",‎Yes
+391,8,"Lithium Battery Energy Content","‎52.5 Watt Hours"
+392,8,"Number of Lithium Ion Cells",‎3
+393,8,"Included Components","‎Laptop, Power Adapter, User Manual"
+394,8,"Country of Origin",‎China
+395,8,"Item Weight","‎3 kg 420 g"
+396,8,ASIN,B0BWS9YNCX
+397,8,"Customer Reviews","4.1             4.1 out of 5 stars          
+
+                          255 ratings     
+                    
+                    var dpAcrHasRegisteredArcLinkClickAction;
+                    P.when('A', 'ready').execute(function(A) {
+                        if (dpAcrHasRegisteredArcLinkClickAction !== true) {
+                            dpAcrHasRegisteredArcLinkClickAction = true;
+                            A.declarative(
+                                'acrLink-click-metrics', 'click',
+                                { "allowLinkDefault": true },
+                                function (event) {
+                                    if (window.ue) {
+                                        ue.count("acrLinkClickCount", (ue.count("acrLinkClickCount") || 0) + 1);
+                                    }
+                                }
+                            );
+                        }
+                    });
+                
+                 
+            P.when('A', 'cf').execute(function(A) {
+                A.declarative('acrStarsLink-click-metrics', 'click', { "allowLinkDefault" : true },  function(event){
+                    if(window.ue) {
+                        ue.count("acrStarsLinkWithPopoverClickCount", (ue.count("acrStarsLinkWithPopoverClickCount") || 0) + 1);
+                    }
+                });
+            });
+        
+
+           
+       4.1 out of 5 stars"
+398,8,"Best Sellers Rank","#4,326 in Computers & Accessories (See Top 100 in Computers & Accessories)   #99 in Traditional Laptops"
+399,8,"Date First Available","24 February 2023"
+400,8,Packer,"SG66 – QUANTA CQ Tech-Front (CHongqing) computer CO.,LTD 18#, comprehensive bonded zone avenue, Shapingba District 401332 Chongqing China"
+401,8,Importer,"HP India Sales pvt limited, 24 kothari Arena, Hosur main road, Adugodi , Bangalore -560030."
+402,8,"Item Dimensions LxWxH","7.2 x 30.9 x 52.2 Centimeters"
+403,8,"Net Quantity","1 Count"
+404,8,"Generic Name",Laptop
+405,8,Features,"['【6-core AMD Ryzen 5 5600H】Experience the power of 12 threads and a 16MB L3 cache, designed for serious gaming and multitasking. Stay cool under pressure with the updated thermals', '【4 GB NVIDIA GeForce RTX 3050 Laptop GPU】Unlock an immersive gaming experience with graphics that deliver enhanced 3D rendering and hyper-efficient data processing', '【Popular games】Play all your favorite games like Grand Theft Auto V, Cyberpunk 2077, World of Warcraft, Minecraft, The Witcher 3, God of War 4, FIFA 23, Warhammer 40,000, and Gotham Knights', '【Upgraded memory and storage】Upgrade your system with 512GB PCIe Gen4 NVMe TLC M.2 SSD and 16GB DDR4 RAM. Conquer opponents with improved responsiveness and ample storage for all your gaming needs.', '【Micro-edge display】Enjoy the immersive 15.6” FHD display with a micro-edge bezel and anti-glare screen delivering high-quality visuals with a rapid 144Hz refresh rate and 9ms response time', '【Long battery life】Game without interruptions with a 3-cell, 52.5Wh battery that lasts longer than toughest of enemies in game. Fast charge up to 50% in just 30 minutes for extended marathons', '【Effortless connectivity for gaming sessions】Wi-Fi 6 and Bluetooth 5.3 wireless card, 1 x USB Type-C, 2 x USB Type-A, 1 x RJ-45, and 1 x HDMI 2.1 ports provide seamless, swift connections', '【Pre-loaded Win 11 and MS Office】Get started immediately with preloaded Windows 11 Home and MS Office. Follow the Office Activation Wizard to activate your MS Office', '【Enhanced collaboration】Experience pristine clarity when teaming up with your mates, thanks to the HP Wide Vision 720p HD camera with temporal noise reduction, a backlit keyboard, and audio by B&O.', '【Sustainably made】Choose an environmentally conscious laptop with recycled plastics, EPEAT registration, and ENERGY STAR certification']"
+406,9,Brand,‎acer
+407,9,Manufacturer,‎Acer
+408,9,Series,"‎Aspire Lite"
+409,9,Colour,‎Gray
+410,9,"Form Factor",‎Ultra-Portable
+411,9,"Standing screen display size","‎15.6 Inches"
+412,9,"Screen Resolution","‎1920 x 1080 pixels"
+413,9,Resolution,"‎1920 x 1080 Pixels"
+414,9,"Package Dimensions","‎48.1 x 31.9 x 8.8 cm; 1.59 kg"
+415,9,Batteries,"‎1 Lithium Ion batteries required. (included)"
+416,9,"Item model number",‎AL15-41
+417,9,"Processor Brand",‎AMD
+418,9,"Processor Type","‎Ryzen 5"
+419,9,"Processor Speed","‎2.3 GHz"
+420,9,"Processor Count",‎1
+421,9,"RAM Size","‎16 GB"
+422,9,"Memory Technology",‎DDR4
+423,9,"Computer Memory Type","‎DDR4 SDRAM"
+424,9,"Maximum Memory Supported","‎16 GB"
+425,9,"Hard Drive Size","‎512 GB"
+426,9,"Hard Disk Description",‎SSD
+427,9,"Hard Drive Interface","‎Solid State"
+428,9,"Audio Details",‎Speakers
+429,9,"Graphics Coprocessor","‎AMD Radeon Graphics"
+430,9,"Graphics Chipset Brand",‎AMD
+431,9,"Graphics Card Description",‎Integrated
+432,9,"Graphics RAM Type","‎DDR4 SDRAM"
+433,9,"Graphics Card Interface",‎Integrated
+434,9,"Connectivity Type",‎Wi-Fi
+435,9,"Wireless Type",‎Bluetooth
+436,9,"Number of USB 2.0 Ports",‎2
+437,9,"Number of USB 3.0 Ports",‎2
+438,9,"Number of HDMI Ports",‎1
+439,9,Voltage,"‎240 Volts"
+440,9,Wattage,"‎45 Watts"
+441,9,"Operating System","‎Windows 11 Home"
+442,9,"Are Batteries Included",‎Yes
+443,9,"Lithium Battery Energy Content","‎36 Watt Hours"
+444,9,"Lithium Battery Weight","‎0.5 g"
+445,9,"Number of Lithium Ion Cells",‎3
+446,9,"Number of Lithium Metal Cells",‎3
+447,9,"Included Components","‎‎1U (contains Laptop 1N, Power cord 1N, Adapter 1N, User Manual 1N)"
+448,9,"Country of Origin",‎China
+449,9,"Item Weight","‎1 kg 590 g"
+450,9,ASIN,B0DG2GCTD7
+451,9,"Customer Reviews","3.9             3.9 out of 5 stars          
+
+                          1,029 ratings     
+                    
+                    var dpAcrHasRegisteredArcLinkClickAction;
+                    P.when('A', 'ready').execute(function(A) {
+                        if (dpAcrHasRegisteredArcLinkClickAction !== true) {
+                            dpAcrHasRegisteredArcLinkClickAction = true;
+                            A.declarative(
+                                'acrLink-click-metrics', 'click',
+                                { "allowLinkDefault": true },
+                                function (event) {
+                                    if (window.ue) {
+                                        ue.count("acrLinkClickCount", (ue.count("acrLinkClickCount") || 0) + 1);
+                                    }
+                                }
+                            );
+                        }
+                    });
+                
+                 
+            P.when('A', 'cf').execute(function(A) {
+                A.declarative('acrStarsLink-click-metrics', 'click', { "allowLinkDefault" : true },  function(event){
+                    if(window.ue) {
+                        ue.count("acrStarsLinkWithPopoverClickCount", (ue.count("acrStarsLinkWithPopoverClickCount") || 0) + 1);
+                    }
+                });
+            });
+        
+
+           
+       3.9 out of 5 stars"
+452,9,"Best Sellers Rank","#592 in Computers & Accessories (See Top 100 in Computers & Accessories)   #8 in Traditional Laptops"
+453,9,"Date First Available","2 September 2024"
+454,9,Packer,"ACER INDIA PRIVATE LIMITED, RS No.38/2, Sedarpet Village, Villanur Commune, Poducherry - 605111."
+455,9,Importer,"ACER INDIA PRIVATE LIMITED Embassy Heights, 6th Floor, No. 13, Magrath Road, Next to HOSMAT Hospital, Bangalore, INDIA – 560025"
+456,9,"Net Quantity","1 Count"
+457,9,"Generic Name",Laptop
+458,9,Features,"['Processor: AMD Ryzen 5-5625U, Hexa-Core Processor with AMD Radeon Graphics. Maximum Power Supply Wattage 45W', 'Visibly Stunning: Experience sharp details and crisp colors on the 15.6" Full HD display, 16:9 aspect ratio, ultra-slim design and narrow bezels.', 'Internal Specifications: RAM - 16 GB of Dual-channel DDR4, 2 SODIMM sockets; Storage - 512 GB SSD NVMe solid-state drive storage (expandable up to 1TB) to store your files and media', 'Ports: 1 x USB 3.2 Gen 1 (Type A), 2 x USB 2.0 (Type A), 1 x USB 3.2 Gen 2 (Type C), 1 x DC-in jack', 'Keyboard: 100-/101-/104-key keyboard with independent numeric keypad, international language support']"
+459,10,Brand,‎Lenovo
+460,10,Manufacturer,‎Lenovo
+461,10,Series,"‎IdeaPad Slim"
+462,10,Colour,"‎Arctic Grey"
+463,10,"Form Factor","‎Thin & Light"
+464,10,"Standing screen display size","‎15 Inches"
+465,10,"Screen Resolution","‎1920 x 1080 pixels"
+466,10,Resolution,"‎1920 x 1080 Pixels"
+467,10,"Package Dimensions","‎48.5 x 33.29 x 7.4 cm; 1.62 kg"
+468,10,Batteries,"‎1 Lithium Polymer batteries required. (included)"
+469,10,"Item model number",‎15IRH8
+470,10,"Processor Brand",‎Intel
+471,10,"Processor Type","‎Intel Core i7"
+472,10,"Processor Speed","‎2.4 GHz"
+473,10,"Processor Count",‎10
+474,10,"Memory Technology","‎Lpddr 5"
+475,10,"Computer Memory Type","‎DDR5 RAM"
+476,10,"Maximum Memory Supported","‎16 GB"
+477,10,"Hard Drive Size","‎512 GB"
+478,10,"Hard Disk Description",‎SSD
+479,10,"Hard Drive Interface","‎PCIE x 4"
+480,10,"Audio Details","‎Headphones, Speakers"
+481,10,"Speaker Description","‎User-facing stereo speakers, 1.5W x2, optimized with Dolby Audio"
+482,10,"Graphics Coprocessor","‎Intel UHD Graphics"
+483,10,"Graphics Chipset Brand",‎Intel
+484,10,"Graphics Card Description",‎Integrated
+485,10,"Graphics RAM Type",‎Shared
+486,10,"Graphics Card Interface",‎Integrated
+487,10,"Connectivity Type",‎Wi-Fi
+488,10,"Number of USB 3.0 Ports",‎3
+489,10,"Number of HDMI Ports",‎1
+490,10,"Number of Ethernet Ports",‎1
+491,10,"Optical Drive Type","‎No Optical Drive"
+492,10,"Operating System","‎Windows 11 Home"
+493,10,"Average Battery Life (in hours)","‎7 Hours"
+494,10,"Are Batteries Included",‎Yes
+495,10,"Lithium Battery Energy Content","‎47 Watt Hours"
+496,10,"Number of Lithium Ion Cells",‎4
+497,10,"Included Components","‎User Guide, Laptop, Power Adapter"
+498,10,"Country of Origin",‎China
+499,10,"Item Weight","‎1 kg 620 g"
+500,10,ASIN,B0DL5N2TFC
+501,10,"Customer Reviews","4.0             4.0 out of 5 stars          
+
+                          892 ratings     
+                    
+                    var dpAcrHasRegisteredArcLinkClickAction;
+                    P.when('A', 'ready').execute(function(A) {
+                        if (dpAcrHasRegisteredArcLinkClickAction !== true) {
+                            dpAcrHasRegisteredArcLinkClickAction = true;
+                            A.declarative(
+                                'acrLink-click-metrics', 'click',
+                                { "allowLinkDefault": true },
+                                function (event) {
+                                    if (window.ue) {
+                                        ue.count("acrLinkClickCount", (ue.count("acrLinkClickCount") || 0) + 1);
+                                    }
+                                }
+                            );
+                        }
+                    });
+                
+                 
+            P.when('A', 'cf').execute(function(A) {
+                A.declarative('acrStarsLink-click-metrics', 'click', { "allowLinkDefault" : true },  function(event){
+                    if(window.ue) {
+                        ue.count("acrStarsLinkWithPopoverClickCount", (ue.count("acrStarsLinkWithPopoverClickCount") || 0) + 1);
+                    }
+                });
+            });
+        
+
+           
+       4.0 out of 5 stars"
+502,10,"Best Sellers Rank","#834 in Computers & Accessories (See Top 100 in Computers & Accessories)   #12 in Traditional Laptops"
+503,10,"Date First Available","28 October 2024"
+504,10,Packer,"One of the below: Hefei Bitland Information Technology Co.,Ltd - No.4088 Jiuxiu Road National Hefei economic & technology development area Hefei Anhui China LCFC（Hefei) Electronics Technology Co., Ltd. - NO.1-3188,YUNGU ROAD, HEFEI EXPORT PROCESSING ZONE. ANHUI PROVINCE,CHINA Tech-Com(Shanghai) Computer Co Ltd - No.6 Ln.58,San-Zhuang Rd., Songjiang EPZ ShangHai, China Wistron InfoComm (Kunshan) Co.Ltd - 168# First Avenue, Kunshan Export Processing Zone, Kunshan, Jiangsu, China Compal information technology (kunshan) CO., LTD. - Address: No. 58, the 1st street, Kunshan Export Processing Zone, Jiangsu, P.R.O.C. CHINA Kunshan Hichain storage Co. Ltd - No. 88 Xinxiang Road Avenue Kunshan CBZ Wujiang Hichain warehousing LTD - No.2088 Pangjin road, Wujiang economic development area, Jiangsu, China"
+505,10,Importer,"Lenovo (India) Private Limited, RBD Icon, Level 2, Doddenakundi Village, Marathahalli Outer Ring Road, K. R. Puram Hobli, Bangalore 560037, Karnataka, India"
+506,10,"Net Quantity","1 Count"
+507,10,"Generic Name",Laptop
+508,10,Features,"['Processor: Intel Core i7-13620H | Speed: 2.4 GHz (Base) - 4.9 GHz (Max) | 10 Cores | 16 Threads | 24MB Cache', 'Display: 15" FHD IPS (1920x1080) | 300Nits Brightness | Anti Glare |TUV Low Blue Light Certified', 'Memory and Storage: 16GB RAM LPDDR5-4800 | 512 GB SSD, Expandable upto 1TB.', 'OS and Software: Windows 11 Home Single Language | Office Home 2024 | Xbox GamePass Ultimate 3-month subscription', 'Design: 4 side narrow bezel | 1.79 cm Ultra Thin & 1.62 kg Light | Backlit Keyboard || Smart Learning Features : Lenovo Aware | Whisper Voice | Eye Care']"
+509,11,Brand,‎HP
+510,11,Manufacturer,‎HP
+511,11,Series,"‎HP Laptop"
+512,11,Colour,"‎Natural Silver"
+513,11,"Form Factor",‎Netbook
+514,11,"Item Height","‎52 Centimeters"
+515,11,"Item Width","‎6.9 Centimeters"
+516,11,"Standing screen display size","‎39.6 Centimetres"
+517,11,"Screen Resolution","‎1920 x 1080 pixels"
+518,11,Resolution,"‎1920 x 1080 Pixels"
+519,11,"Product Dimensions","‎52 x 6.9 x 52 cm; 1.6 kg"
+520,11,Batteries,"‎1 Lithium Ion batteries required. (included)"
+521,11,"Item model number",‎15-fd0006TU
+522,11,"Processor Brand",‎Intel
+523,11,"Processor Type","‎Core i3"
+524,11,"Processor Speed","‎4.5 GHz"
+525,11,"Processor Count",‎1
+526,11,"RAM Size","‎8 GB"
+527,11,"Memory Technology",‎DDR4
+528,11,"Computer Memory Type","‎DDR4 SDRAM"
+529,11,"Maximum Memory Supported","‎16 GB"
+530,11,"Memory Clock Speed","‎3200 GHz"
+531,11,"Hard Drive Size","‎512 GB"
+532,11,"Hard Disk Description",‎SSD
+533,11,"Hard Drive Interface",‎USB-C
+534,11,"Audio Details","‎Headphones, Speakers"
+535,11,"Speaker Description","‎Dual speakers"
+536,11,"Graphics Coprocessor","‎Intel UHD Graphics"
+537,11,"Graphics Chipset Brand",‎Intel
+538,11,"Graphics Card Description",‎Integrated
+539,11,"Graphics RAM Type",‎VRAM
+540,11,"Graphics Card Ram Size","‎8 GB"
+541,11,"Graphics Card Interface",‎Integrated
+542,11,"Connectivity Type",‎Bluetooth
+543,11,"Wireless Type",‎Bluetooth
+544,11,"Number of USB 3.0 Ports",‎2
+545,11,"Number of HDMI Ports",‎1
+546,11,Voltage,"‎41 Volts"
+547,11,"Rear Webcam Resolution","‎0.92 MP"
+548,11,"Front Webcam Resolution","‎1080 Pixels"
+549,11,"Hardware Platform",‎PC
+550,11,"Operating System","‎Windows 11 Home"
+551,11,"Average Battery Life (in hours)","‎9 Hours"
+552,11,"Are Batteries Included",‎Yes
+553,11,"Lithium Battery Energy Content","‎41 Watt Hours"
+554,11,"Number of Lithium Ion Cells",‎3
+555,11,"Included Components","‎Laptop, Power Adapter, User Manual"
+556,11,"Country of Origin",‎China
+557,11,"Item Weight","‎1 kg 600 g"
+558,11,ASIN,B0C3RF3HT3
+559,11,"Best Sellers Rank","#922 in Computers & Accessories (See Top 100 in Computers & Accessories)   #14 in Traditional Laptops"
+560,11,"Date First Available","27 April 2023"
+561,11,Packer,"HP India Sales Pvt. Ltd."
+562,11,Importer,"HP India Sales Pvt. Ltd."
+563,11,"Item Dimensions LxWxH","52 x 6.9 x 52 Centimeters"
+564,11,"Net Quantity","1 Count"
+565,11,"Generic Name",Laptop
+566,11,Features,"['【6-core 13th Gen Intel Core i3-1315U】Experience versatile computing with 8 threads and 10MB L3 cache, delivering a perfect blend of performance and power for demanding tasks.', '【Intel UHD graphics】Immerse yourself in a seamless visual experience with Intel UHD graphics, ensuring speedy and efficient performance for various applications.', '【Upgraded memory and storage】Run multiple programs effortlessly with 8GB DDR4 RAM, while the high-speed 512GB PCIe NVMe M.2 SSD helps you boot up in seconds, enhancing daily usability.', '【Micro-edge display】Experience vibrant visuals on the 15.6-inch FHD, micro-edge display. The anti-glare panel and 250-nit brightness combine for a captivating viewing experience.', '【Long battery life】Swiftly power up from 0% to 50% in just 45 minutes with HP Fast Charge. The 3-cell, 41Wh battery ensures worry-free usage for up to 7 hours and 45 minutes.', '【Pre-loaded Win 11 and MS Office】Comes with Win 11 and MS Office 2021. To activate your MS Office, sign in or sign up, and follow the Office Activation Wizard.', '【Effortless connectivity】Wi-Fi 6 (2x2) and Bluetooth 5.3 deliver a seamless and fast connection. Plug in all that you need with 1 x USB Type-C, 2 x USB Type-A, and 1 x HDMI 2.1 ports.', '【Business conferencing】HP True Vision 1080p Full HD camera is crafted for effortless collaboration with a manual privacy shutter, advanced noise reduction, and dual speakers.', '【Why HP】Experience the unparalleled advantages of choosing HP, the most preferred and trusted PC brand by Indians, empowering you with cutting-edge technology and steadfast dependability.', '【Sustainably made】Choose an environmentally conscious laptop with recycled plastics, EPEAT Silver registration, and ENERGY STAR certification.']"
+567,12,Brand,‎acer
+568,12,Manufacturer,‎Acer
+569,12,Series,"‎Aspire Lite"
+570,12,Colour,"‎Steel Gray"
+571,12,"Form Factor",‎Laptop
+572,12,"Item Height","‎49.2 Centimeters"
+573,12,"Item Width","‎33.5 Centimeters"
+574,12,"Standing screen display size","‎15.6 Inches"
+575,12,"Screen Resolution","‎1920 x 1080 pixels"
+576,12,Resolution,"‎1920 x 1080 Pixels"
+577,12,"Product Dimensions","‎9.1 x 33.5 x 49.2 cm; 2.64 kg"
+578,12,Batteries,"‎1 Lithium Ion batteries required. (included)"
+579,12,"Item model number",‎AL15-41
+580,12,"Processor Brand",‎AMD
+581,12,"Processor Type","‎Ryzen 3 5300U"
+582,12,"Processor Speed","‎2.6 GHz"
+583,12,"Processor Count",‎1
+584,12,"Memory Technology",‎DDR4
+585,12,"Computer Memory Type","‎DDR4 SDRAM"
+586,12,"Maximum Memory Supported","‎32 GB"
+587,12,"Hard Drive Size","‎512 GB"
+588,12,"Hard Disk Description",‎SSD
+589,12,"Hard Drive Interface","‎Solid State"
+590,12,"Audio Details",‎Speakers
+591,12,"Graphics Coprocessor","‎AMD Radeon Graphics"
+592,12,"Graphics Chipset Brand",‎AMD
+593,12,"Graphics Card Description",‎Integrated
+594,12,"Graphics RAM Type","‎DDR4 SDRAM"
+595,12,"Graphics Card Interface",‎Integrated
+596,12,"Connectivity Type",‎Wi-Fi
+597,12,"Wireless Type",‎802.11bgn
+598,12,"Number of USB 2.0 Ports",‎2
+599,12,"Number of USB 3.0 Ports",‎2
+600,12,Wattage,"‎65 Watts"
+601,12,"Operating System","‎Windows 11 Home"
+602,12,"Are Batteries Included",‎Yes
+603,12,"Lithium Battery Energy Content","‎36 Watt Hours"
+604,12,"Lithium Battery Weight","‎0.5 g"
+605,12,"Number of Lithium Ion Cells",‎3
+606,12,"Number of Lithium Metal Cells",‎3
+607,12,"Included Components","‎‎1U (contains Laptop 1N, Power cord 1N, Adapter 1N, User Manual 1N)"
+608,12,"Country of Origin",‎China
+609,12,"Item Weight","‎2 kg 640 g"
+610,12,ASIN,B0CWTYGPH8
+611,12,"Customer Reviews","3.9             3.9 out of 5 stars          
+
+                          1,029 ratings     
+                    
+                    var dpAcrHasRegisteredArcLinkClickAction;
+                    P.when('A', 'ready').execute(function(A) {
+                        if (dpAcrHasRegisteredArcLinkClickAction !== true) {
+                            dpAcrHasRegisteredArcLinkClickAction = true;
+                            A.declarative(
+                                'acrLink-click-metrics', 'click',
+                                { "allowLinkDefault": true },
+                                function (event) {
+                                    if (window.ue) {
+                                        ue.count("acrLinkClickCount", (ue.count("acrLinkClickCount") || 0) + 1);
+                                    }
+                                }
+                            );
+                        }
+                    });
+                
+                 
+            P.when('A', 'cf').execute(function(A) {
+                A.declarative('acrStarsLink-click-metrics', 'click', { "allowLinkDefault" : true },  function(event){
+                    if(window.ue) {
+                        ue.count("acrStarsLinkWithPopoverClickCount", (ue.count("acrStarsLinkWithPopoverClickCount") || 0) + 1);
+                    }
+                });
+            });
+        
+
+           
+       3.9 out of 5 stars"
+612,12,"Best Sellers Rank","#1,251 in Computers & Accessories (See Top 100 in Computers & Accessories)   #19 in Traditional Laptops"
+613,12,"Date First Available","29 February 2024"
+614,12,Packer,"ACER INDIA PRIVATE LIMITED, RS No.38/2, Sedarpet Village, Villanur Commune, Poducherry - 605111."
+615,12,Importer,"ACER INDIA PRIVATE LIMITED Embassy Heights, 6th Floor, No. 13, Magrath Road, Next to HOSMAT Hospital, Bangalore, INDIA – 560025"
+616,12,"Item Dimensions LxWxH","9.1 x 33.5 x 49.2 Centimeters"
+617,12,"Net Quantity","1 Count"
+618,12,"Generic Name",Laptop
+619,12,Features,"['Processor: AMD Ryzen 3 5300U Quad-Core Mobile Processor with AMD Radeon Graphics.Maximum Power Supply Wattage 65 W', 'Visibly Stunning: Experience sharp details and crisp colors on the 15.6" Full HD display, 16:9 aspect ratio, ultra-slim design and narrow bezels.', 'Internal Specifications: RAM - 16 GB of Dual-channel DDR4, 2 SODIMM sockets; Storage - 512 GB SSD NVMe solid-state drive storage (expandable up to 1TB) to store your files and media', 'Ports: 1 x USB 3.2 Gen 1 (Type A), 2 x USB 2.0 (Type A), 1 x USB 3.2 Gen 2 (Type C), 1 x DC-in jack', 'Keyboard: 100-/101-/104-key keyboard with independent numeric keypad, international language support']"
+620,13,Brand,‎ASUS
+621,13,Manufacturer,‎ASUS
+622,13,Series,"‎TUF Gaming"
+623,13,Colour,"‎Graphite Black, R7 | RTX 2050"
+624,13,"Form Factor",‎gaming
+625,13,"Item Height","‎9.15 Inches"
+626,13,"Item Width","‎0.7 Inches"
+627,13,"Standing screen display size","‎15.6 Inches"
+628,13,"Screen Resolution","‎1920 x 1080 pixel"
+629,13,Resolution,"‎1920 x 1080 Pixels"
+630,13,"Product Dimensions","‎35.97 x 1.78 x 23.24 cm; 1.7 kg"
+631,13,Batteries,"‎1 Lithium Ion batteries required. (included)"
+632,13,"Item model number","‎ASUS Vivobook 15 Laptop"
+633,13,"Processor Brand",‎AMD
+634,13,"Processor Type","‎AMD Ryzen 7"
+635,13,"Processor Speed","‎3.1 GHz"
+636,13,"Processor Count",‎10
+637,13,"RAM Size",‎16
+638,13,"Memory Technology",‎DDR5
+639,13,"Computer Memory Type","‎DDR4 SDRAM"
+640,13,"Maximum Memory Supported","‎32 GB"
+641,13,"Memory Clock Speed","‎5600 MHz"
+642,13,"Hard Disk Description",‎SSD
+643,13,"Hard Drive Interface","‎PCIE x 4"
+644,13,"Audio Details","‎Headphones, Speakers"
+645,13,"Graphics Coprocessor","‎NVIDIA GeForce RTX 2050"
+646,13,"Graphics Chipset Brand",‎NVIDIA
+647,13,"Graphics Card Description",‎Dedicated
+648,13,"Graphics RAM Type",‎GDDR6
+649,13,"Graphics Card Ram Size","‎4 GB"
+650,13,"Graphics Card Interface",‎Integrated
+651,13,"Connectivity Type",‎Wi-Fi
+652,13,"Wireless Type","‎Bluetooth, 802.11ac"
+653,13,"Number of USB 2.0 Ports",‎1
+654,13,"Number of HDMI Ports",‎1
+655,13,Wattage,"‎70 Watts"
+656,13,"Optical Drive Type","‎No Optical Storage"
+657,13,"Operating System","‎Windows 11 Home"
+658,13,"Are Batteries Included",‎Yes
+659,13,"Number of Lithium Ion Cells",‎3
+660,13,"Included Components","‎Laptop, Charging Adapter & User Manual"
+661,13,"Country of Origin",‎China
+662,13,"Item Weight","‎1 kg 700 g"
+663,13,ASIN,B0CDQ5CW9V
+664,13,"Customer Reviews","3.9             3.9 out of 5 stars          
+
+                          462 ratings     
+                    
+                    var dpAcrHasRegisteredArcLinkClickAction;
+                    P.when('A', 'ready').execute(function(A) {
+                        if (dpAcrHasRegisteredArcLinkClickAction !== true) {
+                            dpAcrHasRegisteredArcLinkClickAction = true;
+                            A.declarative(
+                                'acrLink-click-metrics', 'click',
+                                { "allowLinkDefault": true },
+                                function (event) {
+                                    if (window.ue) {
+                                        ue.count("acrLinkClickCount", (ue.count("acrLinkClickCount") || 0) + 1);
+                                    }
+                                }
+                            );
+                        }
+                    });
+                
+                 
+            P.when('A', 'cf').execute(function(A) {
+                A.declarative('acrStarsLink-click-metrics', 'click', { "allowLinkDefault" : true },  function(event){
+                    if(window.ue) {
+                        ue.count("acrStarsLinkWithPopoverClickCount", (ue.count("acrStarsLinkWithPopoverClickCount") || 0) + 1);
+                    }
+                });
+            });
+        
+
+           
+       3.9 out of 5 stars"
+665,13,"Best Sellers Rank","#3,695 in Computers & Accessories (See Top 100 in Computers & Accessories)   #70 in Traditional Laptops"
+666,13,"Date First Available","3 June 2024"
+667,13,Packer,"TECH FRONT ( CHONGQING) Computer Co. Ltd, NO 18 , Zongbao Road, Shapingba Dist,Chongquing, China"
+668,13,Importer,"ASUS INDIA PRIVATE LIMITED, 402, Supreme chambers, 17/18, Shah Industrial Estate, Veera Desai Road, Andheri (West), Mumbai 400053, India"
+669,13,"Item Dimensions LxWxH","36 x 1.8 x 23.2 Centimeters"
+670,13,"Net Quantity","1 Count"
+671,13,"Generic Name","Gaming Laptop"
+672,13,Features,"['Processor : AMD Ryzen 7 7435HS Mobile Processor 3.1GHz (20MB Cache, up to 4.5 GHz, 8 cores, 16 Threads)', 'Display : 15.6-inch FHD (1920 x 1080) 16:9, 144Hz, 250 nits Brightness, Anti-Glare Display, Display output : 1x HDMI 2.1 TMDS, Keyboard : Backlit Chiclet Keyboard 1-Zone RGB', 'Graphics : 4GB GDDR6, NVIDIA GeForce RTX 2050 Laptop GPU, Up to 1670MHz at 60W (70W with Dynamic Boost)', 'Storage : 512GB PCIe 4.0 NVMe M.2 SSD | Memory : 16GB DDR5-5600 MHz Support Up to 32 GB Expandable 2x DDR5 SO-DIMM slots [Disclaimer : Rated speed of RAM module. Actual memory speeds may vary by CPU configuration]', 'Battery : 48WHrs, 3S1P, 3-cell Li-ion, Fast Charging : Recharge from 0-50% in 30 minutes']"
+673,14,Brand,‎ASUS
+674,14,Manufacturer,‎ASUS
+675,14,Series,"‎Vivobook Go 15 (2023)"
+676,14,Colour,"‎Black,16GB RAM | 512GB SSD,FHD"
+677,14,"Form Factor",‎Ultra-Portable
+678,14,"Item Height","‎18 Millimeters"
+679,14,"Item Width","‎36 Centimeters"
+680,14,"Standing screen display size","‎15.6 Inches"
+681,14,"Screen Resolution","‎1920 x 1080 pixels"
+682,14,Resolution,"‎1920 x 1080 Pixels"
+683,14,"Product Dimensions","‎23.3 x 36 x 1.8 cm; 1.63 kg"
+684,14,Batteries,"‎1 Lithium Ion batteries required. (included)"
+685,14,"Item model number",‎E1504FA-NJ542WS
+686,14,"Processor Brand",‎AMD
+687,14,"Processor Type","‎Ryzen 5"
+688,14,"Processor Speed","‎4.3 GHz"
+689,14,"Processor Count",‎4
+690,14,"RAM Size","‎16 GB"
+691,14,"Memory Technology",‎DDR5
+692,14,"Computer Memory Type",‎SDRAM
+693,14,"Maximum Memory Supported","‎24 GB"
+694,14,"Memory Clock Speed","‎5500 MHz"
+695,14,"Hard Drive Size","‎512 GB"
+696,14,"Hard Disk Description",‎SSD
+697,14,"Hard Drive Interface","‎Solid State"
+698,14,"Audio Details","‎Headphones, Speakers"
+699,14,"Speaker Description","‎SonicMaster, Built-in speaker, Built-in array microphone"
+700,14,"Graphics Coprocessor","‎AMD Radeon™ Graphics"
+701,14,"Graphics Chipset Brand",‎AMD
+702,14,"Graphics Card Description",‎Integrated
+703,14,"Graphics RAM Type",‎Shared
+704,14,"Graphics Card Interface",‎Integrated
+705,14,"Connectivity Type","‎Bluetooth, Wi-Fi"
+706,14,"Wireless Type","‎Bluetooth, 802.11ax"
+707,14,"Number of USB 2.0 Ports",‎1
+708,14,"Number of USB 3.0 Ports",‎2
+709,14,"Number of HDMI Ports",‎1
+710,14,Voltage,"‎19 Volts"
+711,14,Wattage,"‎45 Watts"
+712,14,"Optical Drive Type","‎No Optical Drive"
+713,14,"Hardware Platform",‎PC
+714,14,"Operating System","‎Windows 11 Home"
+715,14,"Average Battery Life (in hours)","‎6 Hours"
+716,14,"Are Batteries Included",‎Yes
+717,14,"Lithium Battery Energy Content","‎42 Watt Hours"
+718,14,"Number of Lithium Ion Cells",‎3
+719,14,"Included Components","‎‎‎Laptop, User Manual, 45W AC Adapter"
+720,14,"Country of Origin",‎China
+721,14,"Item Weight","‎1 kg 630 g"
+722,14,ASIN,B0BTWF2BQX
+723,14,"Customer Reviews","3.8             3.8 out of 5 stars          
+
+                          162 ratings     
+                    
+                    var dpAcrHasRegisteredArcLinkClickAction;
+                    P.when('A', 'ready').execute(function(A) {
+                        if (dpAcrHasRegisteredArcLinkClickAction !== true) {
+                            dpAcrHasRegisteredArcLinkClickAction = true;
+                            A.declarative(
+                                'acrLink-click-metrics', 'click',
+                                { "allowLinkDefault": true },
+                                function (event) {
+                                    if (window.ue) {
+                                        ue.count("acrLinkClickCount", (ue.count("acrLinkClickCount") || 0) + 1);
+                                    }
+                                }
+                            );
+                        }
+                    });
+                
+                 
+            P.when('A', 'cf').execute(function(A) {
+                A.declarative('acrStarsLink-click-metrics', 'click', { "allowLinkDefault" : true },  function(event){
+                    if(window.ue) {
+                        ue.count("acrStarsLinkWithPopoverClickCount", (ue.count("acrStarsLinkWithPopoverClickCount") || 0) + 1);
+                    }
+                });
+            });
+        
+
+           
+       3.8 out of 5 stars"
+724,14,"Best Sellers Rank","#1,677 in Computers & Accessories (See Top 100 in Computers & Accessories)   #29 in Traditional Laptops"
+725,14,"Date First Available","14 March 2023"
+726,14,Packer,"DIGITEK (CHONGQING) LIMITED B01 SEC C AIRPORT FUNCTION ZONE LIANGLU CUNTAN FREE TRADE PORT AREA, YUBEI DISTRICT CHONGQING CHINA"
+727,14,Importer,"ASUS INDIA PRIVATE LIMITED, 402, Supreme chambers, 17/18, Shah Industrial Estate, Veera Desai Road, Andheri (west), Mumbai 400053, India"
+728,14,"Item Dimensions LxWxH","23.3 x 36 x 1.8 Centimeters"
+729,14,"Net Quantity","1 Count"
+730,14,"Generic Name",Laptop
+731,14,Features,"['Processor: AMD Ryzen 5 7520U Mobile Processor (4-core/8-thread, 4MB cache, up to 4.3 GHz max boost) Efficient for slim designs', 'Memory: 16GB DDR5 on board with| Storage: 512GB M.2 NVMe PCIe 3.0 SSD', 'Integrated: AMD Radeon Graphics', 'Display: 15.6-inch (39.624cm), FHD (1920 x 1080) 16:9 aspect ratio, 60Hz refresh rate, LED Backlit, 250nits, 45% NTSC color gamut, Anti-glare display', 'Operating System: Windows 11 Home with lifetime validity | Software Included: Pre-Installed Office Home and Student 2021 | 1-Year McAfee Anti-Virus']"
+732,15,Brand,‎HP
+733,15,Manufacturer,‎HP
+734,15,Series,"‎HP Laptop"
+735,15,Colour,"‎Silver, 16GB RAM"
+736,15,"Form Factor",‎Laptop
+737,15,"Item Height","‎52 Centimeters"
+738,15,"Item Width","‎31.2 Centimeters"
+739,15,"Standing screen display size","‎39.6 Centimetres"
+740,15,"Screen Resolution","‎1920 x 1080 pixel"
+741,15,Resolution,"‎1920 x 1080 Pixels"
+742,15,"Product Dimensions","‎6.9 x 31.2 x 52 cm; 2.42 kg"
+743,15,Batteries,"‎1 Lithium Ion batteries required. (included)"
+744,15,"Item model number",‎A28GDPA
+745,15,"Processor Brand",‎Intel
+746,15,"Processor Type","‎Intel Core i5"
+747,15,"Processor Speed","‎4.4 GHz"
+748,15,"Processor Count",‎1
+749,15,"RAM Size",‎16
+750,15,"Memory Technology",‎DDR4
+751,15,"Computer Memory Type","‎DDR4 SDRAM"
+752,15,"Maximum Memory Supported","‎16 GB"
+753,15,"Hard Drive Size","‎512 GB"
+754,15,"Hard Disk Description",‎SSD
+755,15,"Hard Drive Interface",‎USB
+756,15,"Audio Details",‎Headphones
+757,15,"Speaker Description","‎dual speakers"
+758,15,"Graphics Coprocessor","‎Intel Iris Xe Graphics"
+759,15,"Graphics Chipset Brand",‎Intel
+760,15,"Graphics Card Description",‎Integrated
+761,15,"Graphics RAM Type","‎DDR4 SDRAM"
+762,15,"Graphics Card Ram Size","‎1616 GB"
+763,15,"Graphics Card Interface",‎Integrated
+764,15,"Connectivity Type",‎Wi-Fi
+765,15,"Wireless Type",‎Bluetooth
+766,15,"Number of HDMI Ports",‎1
+767,15,Voltage,"‎11.25 Volts"
+768,15,Wattage,"‎41 Watt Hours"
+769,15,"Operating System","‎Windows 11 Home"
+770,15,"Average Battery Standby Life (in hours)","‎7 Hours"
+771,15,"Average Battery Life (in hours)","‎7 Hours"
+772,15,"Are Batteries Included",‎Yes
+773,15,"Lithium Battery Energy Content","‎41 Watt Hours"
+774,15,"Number of Lithium Ion Cells",‎3
+775,15,"Included Components","‎Laptop, Power Adapter, User Manual"
+776,15,"Country of Origin",‎China
+777,15,"Item Weight","‎2 kg 420 g"
+778,15,ASIN,B0D4M66F6R
+779,15,"Customer Reviews","4.0             4.0 out of 5 stars          
+
+                          615 ratings     
+                    
+                    var dpAcrHasRegisteredArcLinkClickAction;
+                    P.when('A', 'ready').execute(function(A) {
+                        if (dpAcrHasRegisteredArcLinkClickAction !== true) {
+                            dpAcrHasRegisteredArcLinkClickAction = true;
+                            A.declarative(
+                                'acrLink-click-metrics', 'click',
+                                { "allowLinkDefault": true },
+                                function (event) {
+                                    if (window.ue) {
+                                        ue.count("acrLinkClickCount", (ue.count("acrLinkClickCount") || 0) + 1);
+                                    }
+                                }
+                            );
+                        }
+                    });
+                
+                 
+            P.when('A', 'cf').execute(function(A) {
+                A.declarative('acrStarsLink-click-metrics', 'click', { "allowLinkDefault" : true },  function(event){
+                    if(window.ue) {
+                        ue.count("acrStarsLinkWithPopoverClickCount", (ue.count("acrStarsLinkWithPopoverClickCount") || 0) + 1);
+                    }
+                });
+            });
+        
+
+           
+       4.0 out of 5 stars"
+780,15,"Best Sellers Rank","#589 in Computers & Accessories (See Top 100 in Computers & Accessories)   #7 in Traditional Laptops"
+781,15,"Date First Available","20 May 2024"
+782,15,Packer,"SG66 – QUANTA CQ Tech-Front (CHongqing) computer CO.,LTD 18#, comprehensive bonded zone avenue, Shapingba District 401332 Chongqing China"
+783,15,Importer,"HP India Sales pvt limited, 24 kothari Arena, Hosur main road, Adugodi , Bangalore -560030"
+784,15,"Item Dimensions LxWxH","6.9 x 31.2 x 52 Centimeters"
+785,15,"Net Quantity","1 Count"
+786,15,"Generic Name",Laptop
+787,15,Features,"['【10-core 12th Gen Intel Core i5-1235U】Experience powerful performance with a processor that features 12 threads and 12MB L3 cache for smooth multitasking and fast processing.', '【Intel Iris Xe graphics】Enjoy exceptional visuals with Intel Iris Xe Graphics. Perfect for both work and entertainment, it delivers crystal-clear images for an enhanced viewing experience', '【Substantial memory and storage】The 16GB DDR4 RAM ensures efficient multitasking, while the 512GB PCIe NVMe M.2 SSD provides ample storage space for all your files and applications.', '【Micro-edge display】Immerse yourself in the 15.6" FHD, anti-glare, and micro-edge display. Experience vivid colors and sharp details for an unforgettable viewing experience.', '【Long-lasting battery】The 3-cell, 41Wh battery offers extended usage for up to 7 hours and 30 minutes. Stay unplugged and productive throughout your day with HP Fast Charge support.', '【Seamless connectivity】Stay connected with Wi-Fi 5 and Bluetooth 5.0 wireless card. It also features 1 x USB Type-C, 2 x USB Type-A, and 1 x HDMI 1.4b port for easy connectivity.', '【HD Conferencing】The HP True Vision 720p FHD camera with temporal noise reduction ensures clear video calls. The dual speakers offer high-quality audio for an enhanced conferencing experience.', '【Pre-loaded Win 11 and MS Office】Comes with Win 11 and MS Office 2021. To activate your MS Office, sign in or sign up, and follow the Office Activation Wizard.', "【Why HP】Choose HP, India's No.1 PC brand, for cutting-edge technology, robust performance, and reliable service. Enjoy peace of mind with HP's extensive network of service centers.", "【Sustainable Choice】Make an environmentally-friendly choice with this laptop made that features post-consumer recycled plastic. It's also ENERGY STAR certified and EPEAT registered."]"
+788,16,Brand,‎HP
+789,16,Manufacturer,‎HP
+790,16,Series,‎15s-fy5010TU
+791,16,Colour,‎Silver
+792,16,"Form Factor",‎Laptop
+793,16,"Item Height","‎52.3 Centimeters"
+794,16,"Item Width","‎31.3 Centimeters"
+795,16,"Standing screen display size","‎15.6 Inches"
+796,16,"Screen Resolution","‎1920 x 1080 pixel"
+797,16,"Product Dimensions","‎6.7 x 31.3 x 52.3 cm; 1.69 kg"
+798,16,Batteries,"‎1 Lithium Ion batteries required. (included)"
+799,16,"Item model number",‎A4KF1PA
+800,16,"Processor Brand",‎Intel
+801,16,"Processor Type","‎Intel Core i3"
+802,16,"Processor Speed","‎4.4 GHz"
+803,16,"Processor Count",‎1
+804,16,"RAM Size",‎8
+805,16,"Memory Technology",‎DDR4
+806,16,"Maximum Memory Supported","‎8 GB"
+807,16,"Hard Drive Size","‎256 GB"
+808,16,"Hard Disk Description",‎SSD
+809,16,"Hard Drive Interface",‎USB-C
+810,16,"Audio Details",‎Headphones
+811,16,"Graphics Chipset Brand",‎Intel
+812,16,"Graphics Card Description",‎Integrated
+813,16,"Graphics RAM Type","‎DDR4 SDRAM"
+814,16,"Graphics Card Interface",‎Integrated
+815,16,"Connectivity Type",‎Wi-Fi
+816,16,"Wireless Type",‎Bluetooth
+817,16,"Number of HDMI Ports",‎1
+818,16,Voltage,"‎41 Volts"
+819,16,"Operating System","‎Windows 11 Home"
+820,16,"Average Battery Life (in hours)","‎7 Hours"
+821,16,"Are Batteries Included",‎Yes
+822,16,"Lithium Battery Energy Content","‎41 Watt Hours"
+823,16,"Number of Lithium Ion Cells",‎3
+824,16,"Included Components","‎Laptop, Power Adapter, User Manual"
+825,16,"Country of Origin",‎China
+826,16,"Item Weight","‎1 kg 690 g"
+827,16,ASIN,B0D4M15QMW
+828,16,"Customer Reviews","4.1             4.1 out of 5 stars          
+
+                          121 ratings     
+                    
+                    var dpAcrHasRegisteredArcLinkClickAction;
+                    P.when('A', 'ready').execute(function(A) {
+                        if (dpAcrHasRegisteredArcLinkClickAction !== true) {
+                            dpAcrHasRegisteredArcLinkClickAction = true;
+                            A.declarative(
+                                'acrLink-click-metrics', 'click',
+                                { "allowLinkDefault": true },
+                                function (event) {
+                                    if (window.ue) {
+                                        ue.count("acrLinkClickCount", (ue.count("acrLinkClickCount") || 0) + 1);
+                                    }
+                                }
+                            );
+                        }
+                    });
+                
+                 
+            P.when('A', 'cf').execute(function(A) {
+                A.declarative('acrStarsLink-click-metrics', 'click', { "allowLinkDefault" : true },  function(event){
+                    if(window.ue) {
+                        ue.count("acrStarsLinkWithPopoverClickCount", (ue.count("acrStarsLinkWithPopoverClickCount") || 0) + 1);
+                    }
+                });
+            });
+        
+
+           
+       4.1 out of 5 stars"
+829,16,"Best Sellers Rank","#936 in Computers & Accessories (See Top 100 in Computers & Accessories)   #15 in Traditional Laptops"
+830,16,"Date First Available","20 May 2024"
+831,16,Packer,"SG66 – QUANTA CQ Tech-Front (CHongqing) computer CO.,LTD 18#, comprehensive bonded zone avenue, Shapingba District 401332 Chongqing China"
+832,16,Importer,"HP India Sales pvt limited, 24 kothari Arena, Hosur main road, Adugodi , Bangalore -560030"
+833,16,"Item Dimensions LxWxH","6.7 x 31.3 x 52.3 Centimeters"
+834,16,"Net Quantity","1 Count"
+835,16,"Generic Name",Laptop
+836,16,Features,"['【6-core 12th Gen Intel Core i3-1215U】Experience reliable performance with a processor that features 8 threads and 10MB L3 cache for smooth multitasking and easy processing.', '【Intel UHD graphics】Enjoy exceptional visuals with Intel UHD Graphics. Perfect for both work and entertainment, it delivers crystal-clear images for an enhanced viewing experience.', '【Substantial memory and storage】The 8GB DDR4 RAM ensures efficient multitasking, while the 256GB PCIe NVMe M.2 SSD provides ample storage space for all your files and applications.', '【Micro-edge display】Immerse yourself in the 15.6" FHD, anti-glare, and micro-edge display. Experience vivid colors and sharp details for an unforgettable viewing experience.', '【Long-lasting battery】The 3-cell, 41Wh battery offers extended usage for up to 7 hours and 30 minutes. Stay unplugged and productive throughout your day with HP Fast Charge support.', '【Seamless connectivity】Stay connected with Wi-Fi 5 (2x2) and Bluetooth 5.0. It also features 1 x USB Type-C, 2 x USB Type-A, and 1 x HDMI 1.4b port for easy connectivity.', '【HD Conferencing】The HP True Vision 720p HD camera with integrated dual array mics ensures clear video calls. The dual speakers offer high-quality audio for an enhanced conferencing experience.', "【Why HP】Choose HP, India's No.1 PC brand, for cutting-edge technology, robust performance, and reliable service. Enjoy peace of mind with HP's extensive network of service centers.", '【Sustainable Choice】Make an environmentally-friendly choice with a laptop that is ENERGY STAR certified and EPEAT registered.']"
+837,17,Brand,‎Lenovo
+838,17,Manufacturer,‎Lenovo
+839,17,Series,‎IdeaPad
+840,17,Colour,"‎Cloud Grey"
+841,17,"Form Factor",‎Ultra-Portable
+842,17,"Standing screen display size","‎15.6 Inches"
+843,17,"Screen Resolution","‎1366 x 768 pixels"
+844,17,Resolution,"‎1366 x 768 Pixels"
+845,17,"Package Dimensions","‎53.29 x 33 x 7.7 cm; 1.54 kg"
+846,17,Batteries,"‎1 Lithium Polymer batteries required. (included)"
+847,17,"Item model number",‎15IGL7
+848,17,"Processor Brand",‎Intel
+849,17,"Processor Type","‎Celeron N4020"
+850,17,"Processor Speed","‎1.1 GHz"
+851,17,"Processor Count",‎4
+852,17,"Memory Technology",‎DDR4
+853,17,"Computer Memory Type","‎DDR4 SDRAM"
+854,17,"Maximum Memory Supported","‎8 GB"
+855,17,"Hard Drive Size","‎512 GB"
+856,17,"Hard Disk Description",‎SSD
+857,17,"Hard Drive Interface","‎PCIE x 4"
+858,17,"Audio Details","‎Headphones, Speakers"
+859,17,"Speaker Description","‎Stereo speakers, 1.5W x2, Dolby Audio"
+860,17,"Graphics Coprocessor","‎Intel UHD Graphics 600"
+861,17,"Graphics Chipset Brand",‎Intel
+862,17,"Graphics Card Description",‎Integrated
+863,17,"Graphics RAM Type",‎Shared
+864,17,"Graphics Card Interface",‎Integrated
+865,17,"Wireless Type","‎Bluetooth, 802.11ax"
+866,17,"Number of USB 3.0 Ports",‎3
+867,17,"Number of HDMI Ports",‎1
+868,17,"Optical Drive Type","‎No Optical Drive"
+869,17,"Operating System","‎Windows 11 Home"
+870,17,"Average Battery Life (in hours)","‎11 Hours"
+871,17,"Are Batteries Included",‎Yes
+872,17,"Lithium Battery Energy Content","‎42 Watt Hours"
+873,17,"Number of Lithium Ion Cells",‎3
+874,17,"Included Components","‎User Guide, Laptop, Power Adapter, Warranty Card"
+875,17,"Country of Origin",‎China
+876,17,"Item Weight","‎1 kg 540 g"
+877,17,ASIN,B0DWSZ4MD8
+878,17,"Customer Reviews","3.2             3.2 out of 5 stars          
+
+                          11 ratings     
+                    
+                    var dpAcrHasRegisteredArcLinkClickAction;
+                    P.when('A', 'ready').execute(function(A) {
+                        if (dpAcrHasRegisteredArcLinkClickAction !== true) {
+                            dpAcrHasRegisteredArcLinkClickAction = true;
+                            A.declarative(
+                                'acrLink-click-metrics', 'click',
+                                { "allowLinkDefault": true },
+                                function (event) {
+                                    if (window.ue) {
+                                        ue.count("acrLinkClickCount", (ue.count("acrLinkClickCount") || 0) + 1);
+                                    }
+                                }
+                            );
+                        }
+                    });
+                
+                 
+            P.when('A', 'cf').execute(function(A) {
+                A.declarative('acrStarsLink-click-metrics', 'click', { "allowLinkDefault" : true },  function(event){
+                    if(window.ue) {
+                        ue.count("acrStarsLinkWithPopoverClickCount", (ue.count("acrStarsLinkWithPopoverClickCount") || 0) + 1);
+                    }
+                });
+            });
+        
+
+           
+       3.2 out of 5 stars"
+879,17,"Best Sellers Rank","#3,802 in Computers & Accessories (See Top 100 in Computers & Accessories)   #74 in Traditional Laptops"
+880,17,"Date First Available","11 February 2025"
+881,17,Packer,"One of the below: Hefei Bitland Information Technology Co.,Ltd - No.4088 Jiuxiu Road National Hefei economic & technology development area Hefei Anhui China LCFC（Hefei) Electronics Technology Co., Ltd. - NO.1-3188,YUNGU ROAD, HEFEI EXPORT PROCESSING ZONE. ANHUI PROVINCE,CHINA Tech-Com(Shanghai) Computer Co Ltd - No.6 Ln.58,San-Zhuang Rd., Songjiang EPZ ShangHai, China Wistron InfoComm (Kunshan) Co.Ltd - 168# First Avenue, Kunshan Export Processing Zone, Kunshan, Jiangsu, China Compal information technology (kunshan) CO., LTD. - Address: No. 58, the 1st street, Kunshan Export Processing Zone, Jiangsu, P.R.O.C. CHINA Kunshan Hichain storage Co. Ltd - No. 88 Xinxiang Road Avenue Kunshan CBZ Wujiang Hichain warehousing LTD - No.2088 Pangjin road, Wujiang economic development area, Jiangsu, China"
+882,17,Importer,"Lenovo (India) Private Limited, RBD Icon, Level 2, Doddenakundi Village, Marathahalli Outer Ring Road, K. R. Puram Hobli, Bangalore 560037, Karnataka, India"
+883,17,"Net Quantity","1 Piece"
+884,17,"Generic Name",Laptop
+885,17,Features,"['Processor: Intel Celeron N4020 | Speed: 1.1 GHz (Base) - 2.8 GHz (Max) | 2 Cores | 2 Threads | 4MB Cache', 'Display: 15.6" HD (1366x768) | TN | 220Nits Brightness | Anti Glare', 'Graphics: Integrated Intel UHD Graphics 600 | Memory: 8GB DDR4-2400 | Storage: 512GB SSD NVMe', 'OS and Software: Windows 11 Home Single Language, English | Office Home & Student 2024', 'Battery Life: 42Wh | Local video (1080p) playback@150nits: 11 hr |Adaptive Performance with Smart Power | Rapid Charge Boost (get 2 hours of runtime with a 15-minute charge)']"
+915,19,Brand,‎Dell
+916,19,Manufacturer,"‎Dell India Pvt Ltd"
+917,19,Series,‎Inspiron
+918,19,Colour,‎Silver
+919,19,"Form Factor",‎Clamshell
+920,19,"Standing screen display size","‎15.6 Inches"
+921,19,"Screen Resolution","‎1920 x 1080 pixels"
+922,19,Resolution,"‎1920 x 1080 Pixels"
+923,19,"Package Dimensions","‎45.2 x 34.8 x 6.4 cm; 1.62 kg"
+924,19,Batteries,"‎1 Lithium Ion batteries required. (included)"
+925,19,"Item model number","‎Inspiron 3530"
+926,19,"Processor Brand",‎Intel
+927,19,"Processor Type","‎Core i5"
+928,19,"Processor Speed","‎4.6 GHz"
+929,19,"Processor Count",‎1
+930,19,"Memory Technology",‎DDR4
+931,19,"Computer Memory Type","‎DDR4 SDRAM"
+932,19,"Maximum Memory Supported","‎16 GB"
+933,19,"Hard Drive Size","‎1 TB"
+934,19,"Hard Disk Description",‎SSD
+935,19,"Graphics Chipset Brand",‎Intel
+936,19,"Graphics Card Description",‎Integrated
+937,19,"Graphics RAM Type","‎DDR4 SDRAM"
+938,19,"Graphics Card Interface",‎Integrated
+939,19,"Number of USB 2.0 Ports",‎1
+940,19,"Number of USB 3.0 Ports",‎2
+941,19,"Optical Drive Type","‎No Optical Device"
+942,19,"Operating System","‎Windows 11 Home"
+943,19,"Are Batteries Included",‎Yes
+944,19,"Lithium Battery Energy Content","‎41 Watt Hours"
+945,19,"Number of Lithium Ion Cells",‎3
+946,19,"Included Components","‎Laptop | Power Cable |User Manual"
+947,19,"Country of Origin",‎China
+948,19,"Item Weight","‎1 kg 620 g"
+949,19,ASIN,B0DSFQZTVW
+950,19,"Customer Reviews","3.6             3.6 out of 5 stars          
+
+                          62 ratings     
+                    
+                    var dpAcrHasRegisteredArcLinkClickAction;
+                    P.when('A', 'ready').execute(function(A) {
+                        if (dpAcrHasRegisteredArcLinkClickAction !== true) {
+                            dpAcrHasRegisteredArcLinkClickAction = true;
+                            A.declarative(
+                                'acrLink-click-metrics', 'click',
+                                { "allowLinkDefault": true },
+                                function (event) {
+                                    if (window.ue) {
+                                        ue.count("acrLinkClickCount", (ue.count("acrLinkClickCount") || 0) + 1);
+                                    }
+                                }
+                            );
+                        }
+                    });
+                
+                 
+            P.when('A', 'cf').execute(function(A) {
+                A.declarative('acrStarsLink-click-metrics', 'click', { "allowLinkDefault" : true },  function(event){
+                    if(window.ue) {
+                        ue.count("acrStarsLinkWithPopoverClickCount", (ue.count("acrStarsLinkWithPopoverClickCount") || 0) + 1);
+                    }
+                });
+            });
+        
+
+           
+       3.6 out of 5 stars"
+951,19,"Best Sellers Rank","#3,385 in Computers & Accessories (See Top 100 in Computers & Accessories)   #63 in Traditional Laptops"
+952,19,"Date First Available","7 January 2025"
+953,19,Packer,"Dell India Pvt. Ltd."
+954,19,Importer,"Dell India Pvt. Ltd."
+955,19,"Net Quantity","1 Count"
+956,19,"Generic Name",Laptop
+957,19,Features,"['Processor: 13th Gen Intel Core i5-1334U, up to 4.60 GHz (12MB, 10 Cores)', 'RAM & Storage: 16 GB: 2 x 8 GB, DDR4, 2666 MT/s + 1TB SSD', 'Display: 15.6" FHD WVA AG 120Hz 250 nits Narrow Border & Graphics: Intel Iris Xe Graphics', 'Keyboard: Backlit Keyboard // Warranty: 1 Year Onsite Hardware Service', 'Software: Windows 11 + MS Office Home & Student 2024', 'Ports: 1 USB 3.2 Gen 1 Type-A port + 1 USB 3.2 Gen 1 Type-C data only, 1 USB 2.0 port, 1 headset jack, 1 HDMI 1.4 port*, 1 M.2 2230/2280 slot for solid-state drive, 1 SD 3.0 card slot']"
+958,20,Brand,‎acer
+959,20,Manufacturer,‎Acer
+960,20,Series,"‎Aspire 3"
+961,20,Colour,‎Silver
+962,20,"Form Factor",‎Laptop
+963,20,"Item Height","‎43.9 Centimeters"
+964,20,"Item Width","‎27.5 Centimeters"
+965,20,"Standing screen display size","‎15.6 Inches"
+966,20,"Screen Resolution","‎1366 x 768"
+967,20,Resolution,"‎1366 x 768 Pixels"
+968,20,"Product Dimensions","‎7.4 x 27.5 x 43.9 cm; 2.15 kg"
+969,20,Batteries,"‎1 Lithium Ion batteries required. (included)"
+970,20,"Item model number",‎A325-45
+971,20,"Processor Brand",‎Intel
+972,20,"Processor Type",‎Celeron
+973,20,"Processor Speed","‎1.1 GHz"
+974,20,"Processor Count",‎1
+975,20,"Memory Technology",‎LPDDR4X
+976,20,"Computer Memory Type",‎SDRAM
+977,20,"Maximum Memory Supported","‎8 GB"
+978,20,"Hard Drive Size","‎512 GB"
+979,20,"Hard Disk Description",‎SSD
+980,20,"Hard Drive Interface",‎Ethernet
+981,20,"Audio Details",‎Speakers
+982,20,"Graphics Chipset Brand",‎Intel
+983,20,"Graphics Card Description",‎Integrated
+984,20,"Graphics RAM Type",‎SDRAM
+985,20,"Graphics Card Interface",‎Integrated
+986,20,"Connectivity Type",‎Wi-Fi
+987,20,"Wireless Type",‎Bluetooth
+988,20,"Number of USB 2.0 Ports",‎1
+989,20,"Number of USB 3.0 Ports",‎1
+990,20,"Number of HDMI Ports",‎1
+991,20,"Operating System","‎Windows 11 Home"
+992,20,"Are Batteries Included",‎Yes
+993,20,"Lithium Battery Energy Content","‎38 Watt Hours"
+994,20,"Number of Lithium Ion Cells",‎2
+995,20,"Number of Lithium Metal Cells",‎2
+996,20,"Included Components","‎1U (contains Laptop 1N, Power cord 1N, Adapter 1N, User Manual 1N)"
+997,20,"Country of Origin",‎India
+998,20,"Item Weight","‎2 kg 150 g"
+999,20,ASIN,B0D7PYTTGH
+1000,20,"Customer Reviews","3.4             3.4 out of 5 stars          
+
+                          286 ratings     
+                    
+                    var dpAcrHasRegisteredArcLinkClickAction;
+                    P.when('A', 'ready').execute(function(A) {
+                        if (dpAcrHasRegisteredArcLinkClickAction !== true) {
+                            dpAcrHasRegisteredArcLinkClickAction = true;
+                            A.declarative(
+                                'acrLink-click-metrics', 'click',
+                                { "allowLinkDefault": true },
+                                function (event) {
+                                    if (window.ue) {
+                                        ue.count("acrLinkClickCount", (ue.count("acrLinkClickCount") || 0) + 1);
+                                    }
+                                }
+                            );
+                        }
+                    });
+                
+                 
+            P.when('A', 'cf').execute(function(A) {
+                A.declarative('acrStarsLink-click-metrics', 'click', { "allowLinkDefault" : true },  function(event){
+                    if(window.ue) {
+                        ue.count("acrStarsLinkWithPopoverClickCount", (ue.count("acrStarsLinkWithPopoverClickCount") || 0) + 1);
+                    }
+                });
+            });
+        
+
+           
+       3.4 out of 5 stars"
+1001,20,"Best Sellers Rank","#796 in Computers & Accessories (See Top 100 in Computers & Accessories)   #12 in Traditional Laptops"
+1002,20,"Date First Available","18 June 2024"
+1003,20,Packer,"ACER INDIA (PRIVATE) LTD, R.S. no 38/2, Sederapet Village,Villianur Commune,Puducherry-605111"
+1004,20,Importer,"ACER INDIA PRIVATE LIMITED Embassy Heights, 6th Floor, No. 13 Magrath Road, Next to HOSMAT Hospital, Bangalore, INDIA – 560025"
+1005,20,"Item Dimensions LxWxH","7.4 x 27.5 x 43.9 Centimeters"
+1006,20,"Net Quantity","1 Count"
+1007,20,"Generic Name",Laptop
+1008,20,Features,"["Processor : Whether you're at home, school, or work, get all the performance you need with the latest Intel Celeron N4500 Processor @ 1.10GHz ( 2 Cores, 4M Cache, up to 2.80 GHz); maintaining order and keeping your apps running consistently and smoothly.", 'Performance : 8GB LPDDR4X RAM for full-power multitasking; 512GB SSD; Thisthin and light laptop offers a good experience for watching videos, browsing the web, remote work, or study from home.', 'Display : 15.6-inch HD 1366 x 768 resolution display keeps images and videos stunning while the narrow border offers-up more viewable space. To protect user’s eyes from harmful blue light, it also includes Acer BlueLightShield.', 'Wireless Connectivity : Dual band Wi-Fi 5 (802.11ac) provides fast internet access. For enhanced video calls this laptop also includes and optimized camera and microphones.', 'Plenty of Ports : Flexible connectivity options through USB 3.0 ports. Users can also connect an external display through the HDMI port.']"
+1009,21,Brand,‎HP
+1010,21,Manufacturer,‎HP
+1011,21,Series,"‎HP Laptop"
+1012,21,Colour,"‎Ryzen 5 7520U 16GB"
+1013,21,"Form Factor",‎laptop
+1014,21,"Standing screen display size","‎15.6 Inches"
+1015,21,"Screen Resolution","‎1920 x 1080 pixel"
+1016,21,"Package Dimensions","‎52.6 x 30.8 x 7 cm; 1.69 kg"
+1017,21,Batteries,"‎1 Lithium Ion batteries required. (included)"
+1018,21,"Processor Brand",‎AMD
+1019,21,"Processor Type","‎Ryzen 5"
+1020,21,"Processor Speed","‎4.3 GHz"
+1021,21,"Processor Count",‎1
+1022,21,"RAM Size","‎16 GB"
+1023,21,"Memory Technology","‎Lpddr 5"
+1024,21,"Computer Memory Type","‎DDR5 RAM"
+1025,21,"Maximum Memory Supported","‎16 GB"
+1026,21,"Hard Drive Size","‎512 GB"
+1027,21,"Hard Disk Description",‎SSD
+1028,21,"Audio Details","‎Headphones, Speakers"
+1029,21,"Graphics Coprocessor","‎AMD Radeon Graphics"
+1030,21,"Graphics Chipset Brand",‎AMD
+1031,21,"Graphics Card Description",‎Integrated
+1032,21,"Graphics RAM Type","‎DDR5 SDRAM"
+1033,21,"Graphics Card Interface",‎Integrated
+1034,21,"Connectivity Type","‎Bluetooth, Wi-Fi"
+1035,21,"Wireless Type",‎Bluetooth
+1036,21,"Operating System","‎Windows 11 Home"
+1037,21,"Average Battery Standby Life (in hours)","‎8 Hours"
+1038,21,"Average Battery Life (in hours)","‎8 Hours"
+1039,21,"Are Batteries Included",‎Yes
+1040,21,"Lithium Battery Energy Content","‎41 Watt Hours"
+1041,21,"Number of Lithium Ion Cells",‎3
+1042,21,"Included Components","‎Laptop, Power Adapter, User Manual"
+1043,21,"Country of Origin",‎China
+1044,21,"Item Weight","‎1 kg 690 g"
+1045,21,ASIN,B0CY2PLQ8N
+1046,21,"Best Sellers Rank","#1,969 in Computers & Accessories (See Top 100 in Computers & Accessories)   #37 in Traditional Laptops"
+1047,21,"Date First Available","14 March 2024"
+1048,21,Packer,"HP India Sales Pvt. Ltd."
+1049,21,Importer,"HP India Sales Pvt. Ltd."
+1050,21,"Net Quantity","1 Count"
+1051,21,"Generic Name",Laptop
+1052,21,Features,"['【4-core AMD Ryzen 5 7520U】Unleash superior performance with a processor optimized for efficiency. Its 8 threads, and 4MB L3 cache offer smooth multitasking and quick response times.', '【AMD Radeon graphics】Enjoy intricate visuals with AMD Radeon graphics. Enhance your digital content, be it for work or entertainment, with captivating graphics.', '【High-capacity memory and storage】Work with ease on the 16GB DDR5 RAM. The 512GB PCIe NVMe M.2 SSD provides generous storage, facilitating a smoother user experience.', '【Micro-edge display】Experience vivid details on the 15.6-inch, FHD anti-glare display. Revel in the stunning clarity and immersive visuals that elevate your viewing experience.', '【Extended battery life】Stay unplugged with a 3-cell, 41Wh battery. HP Fast Charge replenishes up to 50% battery in just 45 minutes, keeping you productive longer.', '【Ultra-fast connectivity】Experience seamless connections with Wi-Fi 6 (1x1) and Bluetooth 5.3. It also features a variety of ports including 1 x USB Type-C, 2 x USB Type-A, and 1 x HDMI 1.4b.', '【HD conferencing】Engage in clear video calls with HP True Vision 1080p FHD camera with temporal noise reduction and integrated dual array digital mics, ideal for work or catching up with loved ones.', '【Pre-loaded Win 11 and MS Office】Comes with Win 11 and MS Office 2021. To activate your MS Office, sign in or sign up, and follow the Office Activation Wizard.', "【Why HP】Join the HP family, India's top PC brand known for its innovative technology, extensive service network, and robust international warranty.", '【Sustainable choice】Make a sustainable choice with a laptop that is designed with ocean-bound plastic and post-consumer recycled plastic. It is also EPEAT registered and ENERGY STAR certified.']"
+1053,22,Brand,‎Primebook
+1054,22,Manufacturer,"‎VVDN Technologies Private Limited"
+1055,22,Series,"‎Primebook 4G"
+1056,22,Colour,‎Black
+1057,22,"Form Factor",‎Laptop
+1058,22,"Standing screen display size","‎11.6 Inches"
+1059,22,"Screen Resolution","‎1920 x 1080 pixel"
+1060,22,Resolution,"‎1366 x 768 Pixels"
+1061,22,"Package Dimensions","‎32.79 x 23.7 x 8.2 cm; 1.98 kg"
+1062,22,Batteries,"‎1 9V batteries required."
+1063,22,"Item model number",‎MT8788
+1064,22,"Processor Brand",‎MediaTek
+1065,22,"Processor Type","‎MediaTek MT8183"
+1066,22,"Processor Speed","‎2 GHz"
+1067,22,"Processor Count",‎1
+1068,22,"RAM Size",‎4
+1069,22,"Memory Technology",‎LPDDR4
+1070,22,"Computer Memory Type","‎DDR4 SDRAM"
+1071,22,"Maximum Memory Supported","‎4 GB"
+1072,22,"Hard Drive Size","‎64 GB"
+1073,22,"Hard Disk Description",‎Emmc
+1074,22,"Audio Details","‎Headphones, Speakers"
+1075,22,"Graphics Coprocessor",‎Mali-G72
+1076,22,"Graphics Chipset Brand",‎MediaTek
+1077,22,"Graphics Card Description",‎Integrated
+1078,22,"Graphics RAM Type",‎Shared
+1079,22,"Graphics Card Interface",‎Integrated
+1080,22,"Connectivity Type",‎Cellular
+1081,22,"Wireless Type",‎Bluetooth
+1082,22,"Number of USB 2.0 Ports",‎2
