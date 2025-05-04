@@ -6,7 +6,7 @@ from typing import Optional
 class ProductBase(BaseModel):
     title: str
     price: float
-    rating: float
+    rating: Optional[float] = None  # Allow None values
     category: str
     discount: Optional[float] = None
     review_count: Optional[int] = None

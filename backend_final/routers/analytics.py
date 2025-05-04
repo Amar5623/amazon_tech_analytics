@@ -5,15 +5,19 @@ from sqlalchemy.orm import Session
 from sqlalchemy import func
 from database import get_db
 from models import products as models
+from fastapi import HTTPException
 
 router = APIRouter(prefix="/api/analytics", tags=["Analytics"])
 
 # 1. Price vs Rating (scatter plot)
 @router.get("/price-vs-rating")
 def price_vs_rating(db: Session = Depends(get_db)):
-    result = db.query(models.Product.price, models.Product.rating).filter(
-        models.Product.price > 0, models.Product.rating > 0).all()
-    return [{"price": r[0], "rating": r[1]} for r in result]
+    try:
+        result = db.query(models.Product.price, models.Product.rating).filter(
+            models.Product.price > 0, models.Product.rating > 0).all()
+        return [{"price": r[0], "rating": r[1]} for r in result]
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
 
 # 2. Top brands by product count and average rating
 @router.get("/top-brands")

@@ -22,8 +22,7 @@ class Product(Base):
     time_diff = Column(Float)
     product_id = Column(BigInteger, unique=True, index=True)
     primary_image = Column(String)
-    
+
     # Add relationship to specifications and images
     specifications = relationship("Specification", back_populates="product")
     images = relationship("Image", back_populates="product")
-

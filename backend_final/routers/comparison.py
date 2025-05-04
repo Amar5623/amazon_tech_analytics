@@ -15,7 +15,7 @@ def compare_specs(product_ids: list[int] = Query(...), db: Session = Depends(get
     Product = prod_models.Product
 
     # Fetch specifications for the given product IDs
-    rows = db.query(Spec.product_id, Spec.spec_name, Spec.spec_value).filter(Spec.product_id.in_(product_ids)).all()
+    rows = db.query(Spec.product_id, Spec.name, Spec.value).filter(Spec.product_id.in_(product_ids)).all()
 
     # Structure specs into product-wise mapping
     comparison = {}

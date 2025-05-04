@@ -4,9 +4,13 @@ from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Database configuration
-DATABASE_URL = os.getenv("DATABASE_URL", "mysql+pymysql://username:password@localhost:3306/amazon_scraper_cleaned")
+DATABASE_URL = os.getenv("DATABASE_URL")
 
 # Create engine
 engine = create_engine(DATABASE_URL, echo=True)

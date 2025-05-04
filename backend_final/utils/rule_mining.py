@@ -15,4 +15,3 @@ def preprocess_specs_for_mining(specs_df: pd.DataFrame) -> pd.DataFrame:
     # One-hot encoding the spec values
     specs_onehot = pd.get_dummies(specs_df, columns=["spec_name", "spec_value"])
     return specs_onehot
-
