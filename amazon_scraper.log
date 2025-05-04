@@ -7046,3 +7046,42 @@
 2025-05-01 19:44:56,578 - INFO - Inserted new product with ID 9
 2025-05-01 19:44:56,584 - INFO - Saved product to database with ID: 9
 2025-05-01 19:44:59,409 - INFO - Scraping interrupted by user
+2025-05-01 22:25:41,501 - INFO - Database amazon_scraper_final created or already exists
+2025-05-01 22:25:41,529 - INFO - Database tables created or already exist
+2025-05-01 22:25:41,530 - INFO - Starting to scrape category: laptops
+2025-05-01 22:25:41,531 - INFO - Scraping search page 1: https://www.amazon.in/s?k=laptops&crid=1N54BM2KAM741
+2025-05-01 22:25:42,981 - WARNING - Rate limited or blocked (503) on attempt 1 for https://www.amazon.in/s?k=laptops&crid=1N54BM2KAM741
+2025-05-01 22:25:44,147 - INFO - Scraping interrupted by user
+2025-05-02 22:36:49,001 - INFO - Database amazon_scraper_final created or already exists
+2025-05-02 22:36:49,139 - INFO - Database tables created or already exist
+2025-05-02 22:36:49,141 - INFO - Starting to scrape category: laptops
+2025-05-02 22:36:49,141 - INFO - Scraping search page 1: https://www.amazon.in/s?k=laptops&crid=1N54BM2KAM741
+2025-05-02 22:36:50,449 - WARNING - Rate limited or blocked (503) on attempt 1 for https://www.amazon.in/s?k=laptops&crid=1N54BM2KAM741
+2025-05-02 22:36:53,476 - WARNING - Rate limited or blocked (503) on attempt 2 for https://www.amazon.in/s?k=laptops&crid=1N54BM2KAM741
+2025-05-02 22:36:58,652 - WARNING - Rate limited or blocked (503) on attempt 3 for https://www.amazon.in/s?k=laptops&crid=1N54BM2KAM741
+2025-05-02 22:36:59,840 - INFO - Scraping interrupted by user
+2025-05-02 22:59:35,564 - INFO - Database amazon_scraper_final created or already exists
+2025-05-02 22:59:35,611 - INFO - Database tables created or already exist
+2025-05-02 22:59:35,612 - INFO - Starting to scrape category: laptops
+2025-05-02 22:59:35,612 - INFO - Scraping search page 1: https://www.amazon.in/s?k=laptops&crid=1N54BM2KAM741
+2025-05-02 22:59:37,083 - WARNING - Rate limited or blocked (503) on attempt 1 for https://www.amazon.in/s?k=laptops&crid=1N54BM2KAM741
+2025-05-02 22:59:38,526 - INFO - Scraping interrupted by user
+2025-05-02 23:00:28,059 - INFO - Database amazon_scraper_final created or already exists
+2025-05-02 23:00:28,092 - INFO - Database tables created or already exist
+2025-05-02 23:00:28,093 - INFO - Starting to scrape category: laptops
+2025-05-02 23:00:28,094 - INFO - Scraping search page 1: https://www.amazon.in/s?k=laptops&crid=1N54BM2KAM741
+2025-05-02 23:00:29,191 - WARNING - Rate limited or blocked (503) on attempt 1 for https://www.amazon.in/s?k=laptops&crid=1N54BM2KAM741
+2025-05-02 23:00:33,135 - WARNING - Rate limited or blocked (503) on attempt 2 for https://www.amazon.in/s?k=laptops&crid=1N54BM2KAM741
+2025-05-02 23:00:37,912 - INFO - Scraping interrupted by user
+2025-05-03 22:02:20,609 - INFO - Database amazon_scraper_final created or already exists
+2025-05-03 22:02:20,696 - INFO - Database tables created or already exist
+2025-05-03 22:02:20,697 - INFO - Starting to scrape category: laptops
+2025-05-03 22:02:20,697 - INFO - Scraping search page 1: https://www.amazon.in/s?k=laptops&crid=1N54BM2KAM741
+2025-05-03 22:02:28,284 - INFO - Extracted 18 product links from search page
+2025-05-03 22:02:28,286 - INFO - Collected 18 product URLs from page 1
+2025-05-03 22:02:28,286 - INFO - Processing product 1/10
+2025-05-03 22:02:28,286 - INFO - Scraping product: https://www.amazon.in/Lenovo-Smartchoice-i7-13620H-Keyboard-83K100CJIN/dp/B0F2162VGQ/ref=sr_1_3?crid=1N54BM2KAM741&dib=eyJ2IjoiMSJ9.pCiYsMA7O8wYhL9VBmcBp1dGYgoVnyeTRDzB7VtMEcYT7ZpNaIDO6Zrfgfy9nh02HqRy9MQaIKuc2z7IM_01e-syZA8cWilvWHIBmn3wNnN9WkOG2YLRWfpJt_WbHBgr-RGpzAL9WtjEVqI4BeZez-9gXP6FnVZ0HCbNjFnNaIn13SrYI8UKNXXKwhSF5iI2SR3mtm0CGlm69cNDeVwvr3y0il-9qEciuSB9a92IX6A.aWETIEKQoG7Z_Fjwcwbb4fciP0bVXW7pDjzFgKVWXH0&dib_tag=se&keywords=laptops&qid=1746289943&sr=8-3
+2025-05-03 22:02:31,506 - INFO - Created database connection pool
+2025-05-03 22:02:31,566 - INFO - Inserted new product with ID 10
+2025-05-03 22:02:31,672 - INFO - Saved product to database with ID: 10
+2025-05-03 22:02:34,356 - INFO - Scraping interrupted by user
