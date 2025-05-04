@@ -5,17 +5,21 @@ from sqlalchemy.orm import Session
 from sqlalchemy import func
 from database import get_db
 from models import specifications as spec_models, products as prod_models
+from typing import List
 
-router = APIRouter(prefix="/api/compare", tags=["Product Comparison"])
+router = APIRouter(tags=["Product Comparison"])
 
 # 1. Compare specifications of multiple products side by side
 @router.get("/specs")
-def compare_specs(product_ids: list[int] = Query(...), db: Session = Depends(get_db)):
+def compare_specs(
+    product_ids: List[int] = Query(..., description="List of product IDs to compare"),
+    db: Session = Depends(get_db)
+):
     Spec = spec_models.Specification
     Product = prod_models.Product
 
     # Fetch specifications for the given product IDs
-    rows = db.query(Spec.product_id, Spec.name, Spec.value).filter(Spec.product_id.in_(product_ids)).all()
+    rows = db.query(Spec.product_id, Spec.spec_name, Spec.spec_value).filter(Spec.product_id.in_(product_ids)).all()
 
     # Structure specs into product-wise mapping
     comparison = {}

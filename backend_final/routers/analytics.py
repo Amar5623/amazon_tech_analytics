@@ -7,7 +7,7 @@ from database import get_db
 from models import products as models
 from fastapi import HTTPException
 
-router = APIRouter(prefix="/api/analytics", tags=["Analytics"])
+router = APIRouter(tags=["Analytics"])  # Remove the prefix here
 
 # 1. Price vs Rating (scatter plot)
 @router.get("/price-vs-rating")

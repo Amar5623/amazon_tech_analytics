@@ -6,7 +6,7 @@ from sqlalchemy import func
 from database import get_db
 from models import products as prod_models
 
-router = APIRouter(prefix="/api/brand", tags=["Brand Intelligence"])
+router = APIRouter(tags=["Brand Intelligence"])  # Remove the prefix here
 
 # 1. Brand-wise average price, rating, discount
 @router.get("/avg-metrics")

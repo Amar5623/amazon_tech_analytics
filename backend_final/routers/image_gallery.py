@@ -6,7 +6,7 @@ from sqlalchemy import func
 from database import get_db
 from models import products as prod_models, images as img_models
 
-router = APIRouter(prefix="/api/image-gallery", tags=["Image-Driven Dashboards"])
+router = APIRouter(tags=["Image-Driven Dashboards"])
 
 # 1. Top rated products – with images
 @router.get("/top-rated")
@@ -18,23 +18,22 @@ def get_top_rated(
     Product = prod_models.Product
     Image = img_models.Image
 
-    subquery = db.query(Product.product_id, Product.rating).filter(Product.category == category).subquery()
+    # Subquery to get product IDs of top-rated products in the specified category
+    subquery = db.query(Product.product_id).filter(Product.category == category).order_by(Product.rating.desc()).limit(limit).subquery()
 
     result = (
         db.query(Product.title, Product.rating, Product.price, Image.image_url)
         .join(Image, Image.product_id == Product.product_id)
         .filter(Product.product_id.in_(subquery))
-        .order_by(Product.rating.desc())
-        .limit(limit)
         .all()
     )
 
     return [
         {
-            "title": r[0],
-            "rating": r[1],
-            "price": r[2],
-            "image_url": r[3]
+            "title": r.title,
+            "rating": r.rating,
+            "price": r.price,
+            "image_url": r.image_url
         }
         for r in result
     ]
@@ -49,24 +48,23 @@ def get_best_discounts(
     Product = prod_models.Product
     Image = img_models.Image
 
-    subquery = db.query(Product.product_id, Product.discount, Product.rating).filter(Product.category == category).subquery()
+    # Subquery to get product IDs of products with the highest discount to rating ratio in the specified category
+    subquery = db.query(Product.product_id).filter(Product.category == category).order_by((Product.discount / Product.rating).desc()).limit(limit).subquery()
 
     result = (
         db.query(Product.title, Product.discount, Product.rating, Product.price, Image.image_url)
         .join(Image, Image.product_id == Product.product_id)
         .filter(Product.product_id.in_(subquery))
-        .order_by((Product.discount / Product.rating).desc())
-        .limit(limit)
         .all()
     )
 
     return [
         {
-            "title": r[0],
-            "discount": r[1],
-            "rating": r[2],
-            "price": r[3],
-            "image_url": r[4]
+            "title": r.title,
+            "discount": r.discount,
+            "rating": r.rating,
+            "price": r.price,
+            "image_url": r.image_url
         }
         for r in result
     ]
