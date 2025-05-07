@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feature Importance - Machine Learning Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <!-- Include API as a module -->
+    <script type="module" src="js/api.js"></script>
+</head>
+<body>
+    <header>
+        <h1>E-commerce Analytics Platform</h1>
+        <nav class="main-nav">
+            <div class="nav-container">
+              <div class="logo">
+                <a href="index.html">Product Analytics</a>
+              </div>
+              <ul class="nav-links">
+                <li class="nav-item"><a href="index.html">Overview</a></li>
+                <li class="nav-item"><a href="category-comparison.html">Category Comparison</a></li>
+                <li class="nav-item"><a href="brand-intelligence.html">Brand Intelligence</a></li>
+                <li class="nav-item active">
+                  <a href="#" class="dropdown-toggle">ML Dashboard</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="ml-clustering.html">Clustering</a></li>
+                    <li><a href="ml-supervised.html">Supervised Learning</a></li>
+                    <li><a href="ml-association-rules.html">Association Rules</a></li>
+                    <li><a href="ml-feature-importance.html">Feature Importance</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <section class="dashboard-header">
+            <h2>Feature Importance Analysis</h2>
+            <p>Identify which features have the most impact on your target variables</p>
+        </section>
+
+        <section class="feature-importance-controls">
+            <div class="control-panel">
+                <h3>Select Target Variable</h3>
+                <div class="form-group">
+                    <label for="target-column">Target Column:</label>
+                    <select id="target-column" class="form-control">
+                        <!-- Options will be populated dynamically -->
+                    </select>
+                </div>
+                <button id="run-feature-importance" class="btn btn-primary">Run Analysis</button>
+            </div>
+        </section>
+
+        <section class="results-container">
+            <div class="result-panel">
+                <h3>Feature Importance Results</h3>
+                <div id="feature-importance-container" class="visualization-container">
+                    <!-- Results will be displayed here -->
+                </div>
+            </div>
+        </section>
+
+        <section class="feature-importance-table">
+            <h3>Feature Importance Details</h3>
+            <div id="feature-table-container">
+                <!-- Table will be displayed here -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 E-commerce Analytics Platform</p>
+    </footer>
+    
+    <!-- Include feature importance script as a module -->
+    <script type="module" src="js/ml-feature-importance.js"></script>
+    
+    <script>
+        // Mobile menu toggle
+        document.addEventListener('DOMContentLoaded', function() {
+          const hamburger = document.querySelector('.hamburger');
+          const navLinks = document.querySelector('.nav-links');
+          
+          hamburger.addEventListener('click', function() {
+            navLinks.classList.toggle('active');
+            hamburger.classList.toggle('active');
+          });
+          
+          // Dropdown functionality
+          const dropdownToggle = document.querySelector('.dropdown-toggle');
+          
+          dropdownToggle.addEventListener('click', function(e) {
+            e.preventDefault();
+            this.parentElement.classList.toggle('show-dropdown');
+          });
+        });
+    </script>
+</body>
+</html>

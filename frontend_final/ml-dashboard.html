@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machine Learning Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>E-commerce Analytics Platform</h1>
+        <nav class="main-nav">
+            <div class="nav-container">
+              <div class="logo">
+                <a href="index.html">Product Analytics</a>
+              </div>
+              <ul class="nav-links">
+                <li class="nav-item active"><a href="index.html">Overview</a></li>
+                <li class="nav-item"><a href="category-comparison.html">Category Comparison</a></li>
+                <li class="nav-item"><a href="brand-intelligence.html">Brand Intelligence</a></li>
+                <li class="nav-item">
+                  <a href="#" class="dropdown-toggle">ML Dashboard</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="ml-clustering.html">Clustering</a></li>
+                    <li><a href="ml-supervised.html">Supervised Learning</a></li>
+                    <li><a href="ml-association-rules.html">Association Rules</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+        <section class="dashboard-header">
+            <h2>Machine Learning Dashboard</h2>
+            <p>Explore machine learning insights and run algorithms on your e-commerce data</p>
+        </section>
+
+        <section class="ml-navigation">
+            <div class="ml-nav-item" onclick="window.location.href='ml-supervised.html'">
+                <h3>🧪 Supervised Learning</h3>
+                <p>Run regression and classification algorithms</p>
+            </div>
+            <div class="ml-nav-item" onclick="window.location.href='ml-clustering.html'">
+                <h3>🧠 Clustering</h3>
+                <p>Discover natural groupings in your data</p>
+            </div>
+            <div class="ml-nav-item" onclick="window.location.href='ml-association-rules.html'">
+                <h3>🔗 Association Rules</h3>
+                <p>Find relationships between product features</p>
+            </div>
+            <div class="ml-nav-item" onclick="window.location.href='ml-feature-importance.html'">
+                <h3>📌 Feature Importance</h3>
+                <p>Identify which features drive outcomes</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>📊 Dataset Statistics</h2>
+            <div id="data-stats-container" class="dashboard-container">
+                <!-- Content will be loaded dynamically -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 E-commerce Analytics Platform</p>
+    </footer>
+
+    <script src="js/api.js"></script>
+    <script type="module" src="js/ml-dashboard.js"></script>
+    <script>
+        // Mobile menu toggle
+        document.addEventListener('DOMContentLoaded', function() {
+          const hamburger = document.querySelector('.hamburger');
+          const navLinks = document.querySelector('.nav-links');
+          
+          hamburger.addEventListener('click', function() {
+            navLinks.classList.toggle('active');
+            hamburger.classList.toggle('active');
+          });
+          
+          // Dropdown functionality
+          const dropdownToggle = document.querySelector('.dropdown-toggle');
+          
+          dropdownToggle.addEventListener('click', function(e) {
+            e.preventDefault();
+            this.parentElement.classList.toggle('show-dropdown');
+          });
+        });
+      </script>
+</body>
+</html>

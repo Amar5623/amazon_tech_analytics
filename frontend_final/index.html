@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Overview Dashboard</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+  <nav class="main-nav">
+    <div class="nav-container">
+      <div class="logo">
+        <a href="index.html">Product Analytics</a>
+      </div>
+      <ul class="nav-links">
+        <li class="nav-item active"><a href="index.html">Overview</a></li>
+        <li class="nav-item"><a href="category-comparison.html">Category Comparison</a></li>
+        <li class="nav-item"><a href="brand-intelligence.html">Brand Intelligence</a></li>
+        <li class="nav-item">
+          <a href="#" class="dropdown-toggle">ML Dashboard</a>
+          <ul class="dropdown-menu">
+            <li><a href="ml-clustering.html">Clustering</a></li>
+            <li><a href="ml-supervised.html">Supervised Learning</a></li>
+            <li><a href="ml-association-rules.html">Association Rules</a></li>
+          </ul>
+        </li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </nav>
+
+  <main class="content">
+    <h1>🧭 Overview Dashboard</h1>
+    <section>
+      <h2>📊 Price vs Rating</h2>
+      <svg id="price-rating" width="600" height="400"></svg>
+    </section>
+    <section>
+      <h2>🏆 Top Brands</h2>
+      <svg id="top-brands" width="600" height="400"></svg>
+    </section>
+    <section>
+      <h2>📈 Discount vs Rating</h2>
+      <svg id="discount-rating" width="600" height="400"></svg>
+    </section>
+    <section>
+      <h2>📉 Review Count Distribution</h2>
+      <svg id="review-distribution" width="600" height="400"></svg>
+    </section>
+  </main>
+
+  <script type="module" src="js/overview.js"></script>
+  <script>
+    // Mobile menu toggle
+    document.addEventListener('DOMContentLoaded', function() {
+      const hamburger = document.querySelector('.hamburger');
+      const navLinks = document.querySelector('.nav-links');
+      
+      hamburger.addEventListener('click', function() {
+        navLinks.classList.toggle('active');
+        hamburger.classList.toggle('active');
+      });
+      
+      // Dropdown functionality
+      const dropdownToggle = document.querySelector('.dropdown-toggle');
+      
+      dropdownToggle.addEventListener('click', function(e) {
+        e.preventDefault();
+        this.parentElement.classList.toggle('show-dropdown');
+      });
+    });
+  </script>
+</body>
+</html>
+

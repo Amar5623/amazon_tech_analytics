@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clustering - ML Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/ml-dashboard.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>E-commerce Analytics Platform</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Overview</a></li>
+                <li><a href="category-comparison.html">Category Comparison</a></li>
+                <li><a href="brand-intelligence.html">Brand Intelligence</a></li>
+                <li><a href="ml-dashboard.html" class="active">ML Dashboard</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="dashboard-header">
+            <h2>Clustering</h2>
+            <p>Discover natural groupings in your e-commerce data</p>
+            <div class="breadcrumb">
+                <a href="ml-dashboard.html">ML Dashboard</a> &gt; Clustering
+            </div>
+        </section>
+
+        <section class="ml-control-panel">
+            <div class="form-group">
+                <label for="clustering-algorithm">Clustering Algorithm:</label>
+                <select id="clustering-algorithm">
+                    <option value="">Select an algorithm</option>
+                    <option value="kmeans">K-Means Clustering</option>
+                    <option value="dbscan">DBSCAN</option>
+                    <option value="hierarchical">Hierarchical Clustering</option>
+                </select>
+            </div>
+            
+            <div class="form-group" id="n-clusters-container">
+                <label for="n-clusters">Number of Clusters:</label>
+                <input type="range" id="n-clusters" min="2" max="10" step="1" value="3">
+                <span id="n-clusters-value">3</span>
+            </div>
+            
+            <div id="algorithm-params" class="form-group">
+                <!-- Parameters will be dynamically added here -->
+            </div>
+            
+            <div class="form-group">
+                <label>Features to Include:</label>
+                <div id="feature-checkboxes" class="checkbox-group">
+                    <!-- Checkboxes will be dynamically added here -->
+                </div>
+            </div>
+            
+            <button id="run-clustering" class="primary-button" disabled>Run Clustering</button>
+        </section>
+
+        <section class="ml-results" id="results-container" style="display: none;">
+            <h3>Clustering Results</h3>
+            
+            <div class="metrics-container">
+                <h4>Cluster Metrics</h4>
+                <div id="metrics-display"></div>
+            </div>
+            
+            <div class="visualizations-container">
+                <h4>Cluster Visualizations</h4>
+                <div id="visualizations"></div>
+            </div>
+            
+            <div class="cluster-stats-container">
+                <h4>Cluster Statistics</h4>
+                <div id="cluster-stats"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 E-commerce Analytics Platform</p>
+    </footer>
+
+    <script src="js/api.js"></script>
+    <script src="js/ml-clustering.js"></script>
+</body>
+</html>

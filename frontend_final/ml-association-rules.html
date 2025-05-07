@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Association Rules - ML Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- <link rel="stylesheet" href="css/ml-dashboard.css"> -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>E-commerce Analytics Platform</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Overview</a></li>
+                <li><a href="category-comparison.html">Category Comparison</a></li>
+                <li><a href="brand-intelligence.html">Brand Intelligence</a></li>
+                <li><a href="ml-dashboard.html" class="active">ML Dashboard</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="dashboard-header">
+            <h2>Association Rules</h2>
+            <p>Discover relationships between product features and specifications</p>
+            <div class="breadcrumb">
+                <a href="ml-dashboard.html">ML Dashboard</a> &gt; Association Rules
+            </div>
+        </section>
+
+        <section class="ml-control-panel">
+            <div class="form-group">
+                <label for="category-select">Product Category:</label>
+                <select id="category-select">
+                    <option value="">All Categories</option>
+                    <!-- Categories will be dynamically added here -->
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="min-support">Minimum Support:</label>
+                <input type="range" id="min-support" min="0.01" max="0.5" step="0.01" value="0.1">
+                <span id="min-support-value">0.1 (10%)</span>
+            </div>
+            
+            <div class="form-group">
+                <label for="min-confidence">Minimum Confidence:</label>
+                <input type="range" id="min-confidence" min="0.1" max="1" step="0.05" value="0.5">
+                <span id="min-confidence-value">0.5 (50%)</span>
+            </div>
+            
+            <div class="form-group">
+                <label for="min-lift">Minimum Lift:</label>
+                <input type="range" id="min-lift" min="1" max="5" step="0.1" value="1">
+                <span id="min-lift-value">1.0</span>
+            </div>
+            
+            <div class="form-group">
+                <label for="metric">Evaluation Metric:</label>
+                <select id="metric">
+                    <option value="lift">Lift</option>
+                    <option value="confidence">Confidence</option>
+                    <option value="support">Support</option>
+                </select>
+            </div>
+            
+            <button id="run-association" class="primary-button">Find Association Rules</button>
+        </section>
+
+        <section class="ml-results" id="results-container" style="display: none;">
+            <h3>Association Rules Results</h3>
+            
+            <div class="rules-summary">
+                <h4>Summary</h4>
+                <div id="rules-summary"></div>
+            </div>
+            
+            <div class="visualizations-container">
+                <h4>Visualizations</h4>
+                <div id="visualizations"></div>
+            </div>
+            
+            <div class="rules-table-container">
+                <h4>Association Rules</h4>
+                <div class="table-controls">
+                    <input type="text" id="rules-search" placeholder="Search rules...">
+                    <select id="rules-sort">
+                        <option value="lift-desc">Sort by Lift (High to Low)</option>
+                        <option value="confidence-desc">Sort by Confidence (High to Low)</option>
+                        <option value="support-desc">Sort by Support (High to Low)</option>
+                    </select>
+                </div>
+                <div id="rules-table"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 E-commerce Analytics Platform</p>
+    </footer>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="js/api.js" type="module"></script>
+
+    <script src="js/association-rules.js" type="module"></script>
+</body>
+</html>
+
+    

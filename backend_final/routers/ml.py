@@ -1110,4 +1110,3 @@ async def calculate_feature_importance(
     except Exception as e:
         logger.error(f"Error in feature importance: {str(e)}", exc_info=True)
         raise HTTPException(status_code=500, detail=f"Internal Server Error: {str(e)}")
-

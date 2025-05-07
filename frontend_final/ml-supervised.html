@@ -1,0 +1,110 @@
+<!-- frontend_final\ml-supervised.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supervised Learning - ML Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/ml-dashboard.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>E-commerce Analytics Platform</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Overview</a></li>
+                <li><a href="category-comparison.html">Category Comparison</a></li>
+                <li><a href="brand-intelligence.html">Brand Intelligence</a></li>
+                <li><a href="ml-dashboard.html" class="active">ML Dashboard</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="dashboard-header">
+            <h2>Supervised Learning</h2>
+            <p>Run regression and classification algorithms to predict outcomes</p>
+            <div class="breadcrumb">
+                <a href="ml-dashboard.html">ML Dashboard</a> &gt; Supervised Learning
+            </div>
+        </section>
+        <section class="ml-control-panel">
+            <div class="form-group">
+                <label for="target-column">Target Column:</label>
+                <select id="target-column">
+                    <option value="">Select a target column</option>
+                    <option value="price">Price</option>
+                    <option value="rating">Rating</option>
+                    <option value="review_count">Review Count</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="algorithm-type">Algorithm Type:</label>
+                <select id="algorithm-type">
+                    <option value="">Select algorithm type</option>
+                    <option value="regression">Regression</option>
+                    <option value="classification">Classification</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="algorithm">Algorithm:</label>
+                <select id="algorithm" disabled>
+                    <option value="">Select an algorithm</option>
+                </select>
+            </div>
+            
+            <div id="algorithm-params" class="form-group">
+                <!-- Parameters will be dynamically added here -->
+            </div>
+            
+            <div class="form-group">
+                <label for="test-size">Test Size:</label>
+                <input type="range" id="test-size" min="0.1" max="0.5" step="0.05" value="0.2">
+                <span id="test-size-value">0.2 (20%)</span>
+            </div>
+            
+            <button id="run-algorithm" class="primary-button" disabled>Run Algorithm</button>
+        </section>
+        <section class="ml-results" id="results-container" style="display: none;">
+            <h3>Results</h3>
+            
+            <div class="metrics-container">
+                <h4>Performance Metrics</h4>
+                <div id="metrics-display"></div>
+            </div>
+            
+            <div class="visualizations-container">
+                <h4>Visualizations</h4>
+                <div id="visualizations"></div>
+            </div>
+            
+            <div class="feature-importance-container">
+                <h4>Feature Importance</h4>
+                <div id="feature-importance"></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 E-commerce Analytics Platform</p>
+    </footer>
+    
+    <!-- Import API utilities first -->
+    <script type="module">
+        // Import the mlAPI object and helper functions
+        import { mlAPI, showLoading, showError, displayImage } from './js/api.js';
+        
+        // Make them available globally
+        window.mlAPI = mlAPI;
+        window.showLoading = showLoading;
+        window.showError = showError;
+        window.displayImage = displayImage;
+    </script>
+    
+    <!-- Then import the supervised learning script -->
+    <script src="js/ml-supervised.js"></script>
+</body>
+</html>
